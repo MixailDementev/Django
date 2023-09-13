@@ -1,0 +1,62 @@
+Watching for file changes with StatReloader
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 12
+"GET /prefix/about HTTP/1.1" 301 0
+"GET /prefix/about/ HTTP/1.1" 200 8
+"GET /prefix/about/ HTTP/1.1" 200 8
+D:\обучение\DJango\lesson\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/ HTTP/1.1" 200 12
+"GET /prefix/ HTTP/1.1" 200 12
+"GET /prefix/about/ HTTP/1.1" 200 27
+D:\обучение\DJango\lesson\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\обучение\DJango\lesson\myproject\myapp\views.py", line 12, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 12
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 12
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\обучение\DJango\lesson\myproject\myapp\views.py", line 12, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+D:\обучение\DJango\lesson\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-05 12:50:59,853 autoreload 17020 20968 Watching for file changes with StatReloader
+ERROR 2023-09-05 12:51:08,380 views 17020 8548 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\обучение\DJango\lesson\myproject\myapp\views.py", line 12, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-05 12:51:08,381 basehttp 17020 8548 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-09-05 12:51:13,221 views 17020 8548 Index page accessed
+INFO 2023-09-05 12:51:13,221 basehttp 17020 8548 "GET /prefix/ HTTP/1.1" 200 12
+INFO 2023-09-05 12:53:08,406 autoreload 17020 20968 D:\обучение\DJango\lesson\myproject\myapp\views.py changed, reloading.
+INFO 2023-09-05 12:53:08,800 autoreload 9300 12996 Watching for file changes with StatReloader
+ERROR 2023-09-05 12:55:55,097 views 9300 13836 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\обучение\DJango\lesson\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-05 12:55:55,098 basehttp 9300 13836 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2023-09-05 12:55:57,306 views 9300 13836 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\обучение\DJango\lesson\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-09-05 12:55:57,307 basehttp 9300 13836 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-09-05 12:56:00,730 views 9300 13836 Index page accessed
+INFO 2023-09-05 12:56:00,731 basehttp 9300 13836 "GET /prefix/ HTTP/1.1" 200 12
