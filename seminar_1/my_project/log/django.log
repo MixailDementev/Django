@@ -3,3 +3,467 @@ INFO 2023-09-05 17:43:13,157 views 23956 22792 οξρεωενθε ρςπΰνθφϋ site β: 2023-0
 INFO 2023-09-05 17:43:13,157 basehttp 23956 22792 "GET /site/ HTTP/1.1" 200 1476
 INFO 2023-09-05 17:43:17,863 views 23956 22792 οξρεωενθε ρςπΰνθφϋ author β: 2023-09-05 17:43:17.863595
 INFO 2023-09-05 17:43:17,863 basehttp 23956 22792 "GET /author/ HTTP/1.1" 200 1304
+INFO 2023-09-10 12:19:19,469 autoreload 14184 19156 Watching for file changes with StatReloader
+INFO 2023-09-10 12:24:28,422 autoreload 23692 13032 Watching for file changes with StatReloader
+INFO 2023-09-10 12:26:15,923 autoreload 4656 7700 Watching for file changes with StatReloader
+INFO 2023-09-10 12:27:45,426 autoreload 10816 4160 Watching for file changes with StatReloader
+INFO 2023-09-10 12:28:09,602 autoreload 19828 13488 Watching for file changes with StatReloader
+INFO 2023-09-10 12:29:28,819 autoreload 23792 24200 Watching for file changes with StatReloader
+INFO 2023-09-10 12:30:35,894 autoreload 23792 24200 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 12:30:36,286 autoreload 1796 3872 Watching for file changes with StatReloader
+INFO 2023-09-10 12:30:43,743 basehttp 1796 16160 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:30:46,720 basehttp 1796 16160 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:30:53,339 basehttp 1796 16160 "GET /last HTTP/1.1" 301 0
+ERROR 2023-09-10 12:30:53,399 log 1796 12956 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel.return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: GameModel.return_last() missing 1 required positional argument: 'n'
+ERROR 2023-09-10 12:30:53,400 basehttp 1796 12956 "GET /last/ HTTP/1.1" 500 67776
+INFO 2023-09-10 12:31:49,145 autoreload 1796 3872 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 12:31:49,542 autoreload 21844 20408 Watching for file changes with StatReloader
+INFO 2023-09-10 12:31:59,989 autoreload 21844 20408 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 12:32:00,379 autoreload 17384 23740 Watching for file changes with StatReloader
+INFO 2023-09-10 12:32:04,346 basehttp 17384 11828 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:32:06,813 basehttp 17384 11828 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:32:09,580 basehttp 17384 11828 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:32:12,459 basehttp 17384 11828 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:32:15,291 basehttp 17384 11828 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:32:18,148 basehttp 17384 11828 "GET / HTTP/1.1" 200 80
+ERROR 2023-09-10 12:32:24,483 log 17384 11828 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel.return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: GameModel.return_last() missing 1 required positional argument: 'n'
+ERROR 2023-09-10 12:32:24,484 basehttp 17384 11828 "GET /last/ HTTP/1.1" 500 67776
+INFO 2023-09-10 12:33:05,930 autoreload 17384 23740 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 12:33:06,301 autoreload 21612 24692 Watching for file changes with StatReloader
+ERROR 2023-09-10 12:33:10,544 log 21612 11136 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+AttributeError: 'GameModel' object has no attribute 'objects'
+ERROR 2023-09-10 12:33:10,545 basehttp 21612 11136 "GET /last/ HTTP/1.1" 500 70580
+ERROR 2023-09-10 12:33:12,436 log 21612 11136 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+AttributeError: 'GameModel' object has no attribute 'objects'
+ERROR 2023-09-10 12:33:12,437 basehttp 21612 11136 "GET /last/ HTTP/1.1" 500 70580
+INFO 2023-09-10 12:33:20,317 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:33:22,806 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:33:25,551 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:33:28,929 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:33:32,374 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:33:35,774 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:33:39,107 basehttp 21612 11136 "GET / HTTP/1.1" 200 80
+ERROR 2023-09-10 12:33:53,005 log 21612 11136 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+AttributeError: 'GameModel' object has no attribute 'objects'
+ERROR 2023-09-10 12:33:53,007 basehttp 21612 11136 "GET /last/ HTTP/1.1" 500 70443
+INFO 2023-09-10 12:34:48,343 autoreload 21612 24692 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 12:34:48,744 autoreload 24284 10648 Watching for file changes with StatReloader
+ERROR 2023-09-10 12:35:01,088 log 24284 8892 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+AttributeError: 'GameModel' object has no attribute 'objects'
+ERROR 2023-09-10 12:35:01,090 basehttp 24284 8892 "GET /last/ HTTP/1.1" 500 70531
+ERROR 2023-09-10 12:35:02,313 log 24284 8892 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+AttributeError: 'GameModel' object has no attribute 'objects'
+ERROR 2023-09-10 12:35:02,315 basehttp 24284 8892 "GET /last/ HTTP/1.1" 500 70531
+INFO 2023-09-10 12:36:50,117 autoreload 24284 10648 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 12:36:50,510 autoreload 12956 15540 Watching for file changes with StatReloader
+ERROR 2023-09-10 12:37:08,127 log 12956 21284 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameModel' has no attribute 'objects'
+ERROR 2023-09-10 12:37:08,129 basehttp 12956 21284 "GET /last/ HTTP/1.1" 500 70364
+ERROR 2023-09-10 12:37:09,395 log 12956 21284 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameModel' has no attribute 'objects'
+ERROR 2023-09-10 12:37:09,396 basehttp 12956 21284 "GET /last/ HTTP/1.1" 500 70364
+INFO 2023-09-10 12:37:23,665 autoreload 14928 21940 Watching for file changes with StatReloader
+INFO 2023-09-10 12:37:31,274 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:37:33,496 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:37:37,241 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:37:40,085 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:37:43,509 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:37:48,442 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:37:51,042 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+ERROR 2023-09-10 12:38:00,703 log 14928 25096 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameModel' has no attribute 'objects'
+ERROR 2023-09-10 12:38:00,704 basehttp 14928 25096 "GET /last/ HTTP/1.1" 500 70227
+INFO 2023-09-10 12:39:32,992 basehttp 14928 25096 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:40:09,811 autoreload 14928 21940 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\urls.py changed, reloading.
+INFO 2023-09-10 12:40:10,180 autoreload 12404 3168 Watching for file changes with StatReloader
+INFO 2023-09-10 12:40:14,561 basehttp 12404 10108 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:40:21,972 basehttp 12404 10108 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:40:24,794 basehttp 12404 10108 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:40:27,550 basehttp 12404 10108 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:40:50,062 basehttp 12404 10108 "GET / HTTP/1.1" 200 80
+INFO 2023-09-10 12:40:55,829 basehttp 12404 10108 "GET / HTTP/1.1" 200 80
+ERROR 2023-09-10 12:41:01,839 log 12404 10108 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameModel' has no attribute 'objects'
+ERROR 2023-09-10 12:41:01,840 basehttp 12404 10108 "GET /last/ HTTP/1.1" 500 70227
+INFO 2023-09-10 12:41:51,254 autoreload 12404 3168 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 12:41:51,633 autoreload 2552 10652 Watching for file changes with StatReloader
+ERROR 2023-09-10 12:41:55,764 log 2552 21888 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel().objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GameModel' object has no attribute 'objects'
+ERROR 2023-09-10 12:41:55,766 basehttp 2552 21888 "GET /last/ HTTP/1.1" 500 70352
+INFO 2023-09-10 12:42:32,655 autoreload 2552 10652 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 12:42:33,049 autoreload 5384 25152 Watching for file changes with StatReloader
+INFO 2023-09-10 12:43:26,180 autoreload 5384 25152 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\urls.py changed, reloading.
+INFO 2023-09-10 12:43:26,568 autoreload 21660 24188 Watching for file changes with StatReloader
+ERROR 2023-09-10 17:34:03,250 log 21660 2512 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameModel' has no attribute 'objects'
+ERROR 2023-09-10 17:34:03,251 basehttp 21660 2512 "GET /last/ HTTP/1.1" 500 70364
+INFO 2023-09-10 17:36:21,271 autoreload 21660 24188 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\urls.py changed, reloading.
+INFO 2023-09-10 17:36:21,676 autoreload 11216 16284 Watching for file changes with StatReloader
+WARNING 2023-09-10 17:36:28,286 log 11216 10956 Not Found: /
+WARNING 2023-09-10 17:36:28,286 basehttp 11216 10956 "GET / HTTP/1.1" 404 2720
+WARNING 2023-09-10 17:36:41,935 log 11216 10956 Not Found: /app1
+WARNING 2023-09-10 17:36:41,935 basehttp 11216 10956 "GET /app1 HTTP/1.1" 404 2750
+INFO 2023-09-10 17:36:50,254 basehttp 11216 10956 "GET /index HTTP/1.1" 301 0
+INFO 2023-09-10 17:36:50,739 basehttp 11216 18772 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:36:53,673 basehttp 11216 18772 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:36:56,506 basehttp 11216 18772 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:36:58,628 basehttp 11216 18772 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:37:01,828 basehttp 11216 18772 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:37:04,118 basehttp 11216 18772 "GET /index/ HTTP/1.1" 200 80
+ERROR 2023-09-10 17:37:09,334 log 11216 18772 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 16, in return_last
+    return GameModel.objects.all()[:n]
+           ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GameModel' has no attribute 'objects'
+ERROR 2023-09-10 17:37:09,335 basehttp 11216 18772 "GET /last/ HTTP/1.1" 500 70227
+INFO 2023-09-10 17:38:04,732 autoreload 11216 16284 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 17:38:05,146 autoreload 11740 13260 Watching for file changes with StatReloader
+INFO 2023-09-10 17:38:07,508 basehttp 11740 2568 "GET /last/ HTTP/1.1" 200 400
+INFO 2023-09-10 17:38:26,892 autoreload 11740 13260 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 17:38:27,278 autoreload 12304 2592 Watching for file changes with StatReloader
+INFO 2023-09-10 17:38:31,698 basehttp 12304 7088 "GET /last/ HTTP/1.1" 200 400
+INFO 2023-09-10 17:38:33,308 basehttp 12304 7088 "GET /last/ HTTP/1.1" 200 400
+INFO 2023-09-10 17:38:34,282 basehttp 12304 7088 "GET /last/ HTTP/1.1" 200 400
+INFO 2023-09-10 17:40:18,894 autoreload 12304 2592 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 17:40:19,291 autoreload 14976 4320 Watching for file changes with StatReloader
+ERROR 2023-09-10 17:40:30,650 log 14976 3724 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 17, in last_games
+    return HttpResponse('<br>'.join(last))
+                        ^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-10 17:40:30,652 basehttp 14976 3724 "GET /last/ HTTP/1.1" 500 68205
+INFO 2023-09-10 17:41:36,030 autoreload 14976 4320 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 17:41:36,438 autoreload 10956 4500 Watching for file changes with StatReloader
+ERROR 2023-09-10 17:41:37,378 log 10956 21704 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 17, in last_games
+    return HttpResponse(*last, sep='\n')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'sep'
+ERROR 2023-09-10 17:41:37,379 basehttp 10956 21704 "GET /last/ HTTP/1.1" 500 73220
+INFO 2023-09-10 17:42:35,672 autoreload 10956 4500 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 17:42:36,111 autoreload 17104 13908 Watching for file changes with StatReloader
+INFO 2023-09-10 17:42:58,582 autoreload 17104 13908 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 17:42:58,966 autoreload 19612 11320 Watching for file changes with StatReloader
+ERROR 2023-09-10 17:43:01,964 log 19612 8560 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 17, in last_games
+    last_str = '\n'.join(last)
+               ^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, GameModel found
+ERROR 2023-09-10 17:43:01,965 basehttp 19612 8560 "GET /last/ HTTP/1.1" 500 68426
+INFO 2023-09-10 17:44:57,263 autoreload 19612 11320 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\views.py changed, reloading.
+INFO 2023-09-10 17:44:57,667 autoreload 11944 2420 Watching for file changes with StatReloader
+INFO 2023-09-10 17:45:01,438 basehttp 11944 10096 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:45:02,978 basehttp 11944 10096 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:45:37,665 autoreload 11944 2420 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 17:45:38,068 autoreload 13688 10444 Watching for file changes with StatReloader
+ERROR 2023-09-10 17:45:40,959 log 13688 23420 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return GameModel.objects.all()[-n:]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-10 17:45:40,961 basehttp 13688 23420 "GET /last/ HTTP/1.1" 500 76341
+INFO 2023-09-10 17:45:53,695 autoreload 13688 10444 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 17:45:54,085 autoreload 3676 18632 Watching for file changes with StatReloader
+ERROR 2023-09-10 17:45:56,920 log 3676 21736 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return GameModel.objects.all()[:-n]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-10 17:45:56,922 basehttp 3676 21736 "GET /last/ HTTP/1.1" 500 76341
+ERROR 2023-09-10 17:45:57,745 log 3676 21736 Internal Server Error: /last/
+Traceback (most recent call last):
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\views.py", line 16, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ξασχενθε\DJango\seminar_1\my_project\seminar2_app\models.py", line 15, in return_last
+    return GameModel.objects.all()[:-n]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\ξασχενθε\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-10 17:45:57,747 basehttp 3676 21736 "GET /last/ HTTP/1.1" 500 76341
+INFO 2023-09-10 17:47:05,618 autoreload 3676 18632 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 17:47:06,013 autoreload 2420 11944 Watching for file changes with StatReloader
+INFO 2023-09-10 17:47:08,222 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:47:09,302 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:47:09,932 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:47:10,117 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:47:10,307 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:47:10,469 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:47:14,671 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:16,649 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:19,360 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:21,427 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:21,983 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:24,383 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:27,383 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:29,917 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:32,638 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:34,395 basehttp 2420 24944 "GET /index/ HTTP/1.1" 200 80
+INFO 2023-09-10 17:47:44,168 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:48:37,940 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:48:38,808 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:48:39,092 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:48:39,280 basehttp 2420 24944 "GET /last/ HTTP/1.1" 200 420
+INFO 2023-09-10 17:50:41,809 autoreload 2420 11944 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_app\models.py changed, reloading.
+INFO 2023-09-10 17:50:42,242 autoreload 12912 8624 Watching for file changes with StatReloader
+INFO 2023-09-10 20:43:48,015 autoreload 24164 18932 Watching for file changes with StatReloader
+INFO 2023-09-10 20:45:37,758 autoreload 24372 22612 Watching for file changes with StatReloader
+WARNING 2023-09-10 20:45:48,365 log 24372 23796 Not Found: /author/
+WARNING 2023-09-10 20:45:48,366 basehttp 24372 23796 "GET /author/ HTTP/1.1" 404 2759
+INFO 2023-09-10 20:46:41,126 autoreload 24372 22612 D:\ξασχενθε\Django\seminar_1\my_project\my_project\urls.py changed, reloading.
+INFO 2023-09-10 20:46:41,513 autoreload 9828 12528 Watching for file changes with StatReloader
+INFO 2023-09-10 20:47:01,051 autoreload 9828 12528 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_book_app\urls.py changed, reloading.
+INFO 2023-09-10 20:47:01,428 autoreload 3724 14864 Watching for file changes with StatReloader
+WARNING 2023-09-10 20:47:04,665 log 3724 10848 Not Found: /author/
+WARNING 2023-09-10 20:47:04,665 basehttp 3724 10848 "GET /author/ HTTP/1.1" 404 2935
+WARNING 2023-09-10 20:47:06,336 log 3724 10848 Not Found: /author/
+WARNING 2023-09-10 20:47:06,337 basehttp 3724 10848 "GET /author/ HTTP/1.1" 404 2935
+WARNING 2023-09-10 20:47:13,250 log 3724 10848 Not Found: /author/
+WARNING 2023-09-10 20:47:13,250 basehttp 3724 10848 "GET /author/ HTTP/1.1" 404 2935
+INFO 2023-09-10 20:48:36,339 basehttp 3724 10848 "GET /author/author HTTP/1.1" 301 0
+INFO 2023-09-10 20:48:36,342 basehttp 3724 23200 "GET /author/author/ HTTP/1.1" 200 75
+INFO 2023-09-10 20:49:14,910 autoreload 3724 14864 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_book_app\urls.py changed, reloading.
+INFO 2023-09-10 20:49:15,331 autoreload 4656 17312 Watching for file changes with StatReloader
+WARNING 2023-09-10 20:49:16,207 log 4656 8696 Not Found: /author/author/
+WARNING 2023-09-10 20:49:16,207 basehttp 4656 8696 "GET /author/author/ HTTP/1.1" 404 2949
+INFO 2023-09-10 20:49:19,979 basehttp 4656 8696 "GET /author/ HTTP/1.1" 200 75
+INFO 2023-09-10 20:52:18,527 autoreload 4656 17312 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_book_app\views.py changed, reloading.
+INFO 2023-09-10 20:52:18,903 autoreload 22428 19356 Watching for file changes with StatReloader
+INFO 2023-09-10 20:52:21,896 basehttp 22428 7828 "GET /author/ HTTP/1.1" 200 95
+INFO 2023-09-10 20:53:17,214 autoreload 22428 19356 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_book_app\models.py changed, reloading.
+INFO 2023-09-10 20:53:17,623 autoreload 24560 15832 Watching for file changes with StatReloader
+INFO 2023-09-10 20:53:27,675 basehttp 24560 21556 "GET /author/ HTTP/1.1" 200 90
+INFO 2023-09-10 20:56:13,857 autoreload 24560 15832 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_book_app\models.py changed, reloading.
+INFO 2023-09-10 20:56:14,253 autoreload 14448 12880 Watching for file changes with StatReloader
+INFO 2023-09-10 20:56:48,073 autoreload 14448 12880 D:\ξασχενθε\Django\seminar_1\my_project\seminar2_book_app\models.py changed, reloading.
+INFO 2023-09-10 20:56:48,465 autoreload 4972 15536 Watching for file changes with StatReloader
+INFO 2023-09-10 20:56:53,448 basehttp 4972 23420 "GET /author/ HTTP/1.1" 200 225
