@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from seminar2_hw_app.models import Client
+from hw_app.models import Client
 import radar
 
 
@@ -16,5 +16,5 @@ class Command(BaseCommand):
                             email=f'email{i}@example.com',
                             address=f'City_{i}',
                             date_registration=radar.random_datetime(start='2010-05-24', stop='2023-05-24')
-            )
+                            )
             client.save()

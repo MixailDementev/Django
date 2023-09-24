@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <h1>Order list</h1>
+{% endblock title %}
+
+{% block content %}
+    <h1>Order clients</h1>
+<ul>
+    {% for order in orders %}
+            {{ order.customer }}<br>
+                {% for pr in order.products.all %}
+                    {{ pr }}<br>
+                {% endfor %}
+    {% endfor %}
+</ul>
+{% endblock content %}
+

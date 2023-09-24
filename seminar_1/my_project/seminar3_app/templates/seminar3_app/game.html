@@ -1,0 +1,14 @@
+{% extends 'seminar3_app/base.html' %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <table>
+        {% for result in results %}
+            <tr>
+                <td>{{ result }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <h1>Привет! Я, Дементьев Михаил.</h1>
+</header>
+    <main>
+        <section>
+            <h2>Опыт работы</h2>
+            <ul>
+                <li>Место работы 1</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Образование</h2>
+            <ul>
+                <li>Университет 1</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Навыки</h2>
+            <ul>
+                <li>Навык 1</li>
+                <li>Навык 2</li>
+            </ul>
+        </section>
+    </main>
+<footer><p>Свяжитесь со мной: vanneste@rambler.ru | +79115715194</p></footer>
+<p><a href="{% url 'home_page' %}">Узнать больше о моём сайте</a></p>
+{% endblock %}

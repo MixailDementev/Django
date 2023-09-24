@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <ul>
+        {%  for post in posts  %}
+            {%  if post.publish %}
+{#                <li> <a href="{% url 'posts_author' post.pk %}">{{ post.title }}</a> </li>#}
+                <li> <a href="{{ post.get_absolute_url }}">{{ post.title }}</a> </li>
+            {% else %}
+                <li>{{ post.title }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock %}
