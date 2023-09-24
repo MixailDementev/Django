@@ -467,3 +467,2148 @@ INFO 2023-09-10 20:56:14,253 autoreload 14448 12880 Watching for file changes wi
 INFO 2023-09-10 20:56:48,073 autoreload 14448 12880 D:\обучение\Django\seminar_1\my_project\seminar2_book_app\models.py changed, reloading.
 INFO 2023-09-10 20:56:48,465 autoreload 4972 15536 Watching for file changes with StatReloader
 INFO 2023-09-10 20:56:53,448 basehttp 4972 23420 "GET /author/ HTTP/1.1" 200 225
+INFO 2023-09-17 17:26:22,991 autoreload 16392 19688 Watching for file changes with StatReloader
+WARNING 2023-09-17 17:26:30,190 log 16392 8344 Not Found: /
+WARNING 2023-09-17 17:26:30,191 basehttp 16392 8344 "GET / HTTP/1.1" 404 2936
+WARNING 2023-09-17 17:26:38,066 log 16392 8344 Not Found: /seminar3
+WARNING 2023-09-17 17:26:38,067 basehttp 16392 8344 "GET /seminar3 HTTP/1.1" 404 2978
+WARNING 2023-09-17 17:26:44,770 log 16392 8344 Not Found: /seminar3/
+WARNING 2023-09-17 17:26:44,771 basehttp 16392 8344 "GET /seminar3/ HTTP/1.1" 404 3232
+INFO 2023-09-17 17:26:50,891 basehttp 16392 8344 "GET /seminar3/home HTTP/1.1" 301 0
+INFO 2023-09-17 17:26:50,947 basehttp 16392 24420 "GET /seminar3/home/ HTTP/1.1" 200 942
+INFO 2023-09-17 17:27:00,867 basehttp 16392 24420 "GET /seminar3/about HTTP/1.1" 301 0
+ERROR 2023-09-17 17:27:00,953 log 16392 8384 Internal Server Error: /seminar3/about/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: View.as_view() takes 1 positional argument but 2 were given
+ERROR 2023-09-17 17:27:00,955 basehttp 16392 8384 "GET /seminar3/about/ HTTP/1.1" 500 65226
+INFO 2023-09-17 17:29:02,353 autoreload 16392 19688 D:\обучение\Django\seminar_1\my_project\seminar3_app\urls.py changed, reloading.
+INFO 2023-09-17 17:29:02,735 autoreload 24292 24784 Watching for file changes with StatReloader
+INFO 2023-09-17 17:29:05,208 basehttp 24292 20076 "GET /seminar3/about/ HTTP/1.1" 200 827
+INFO 2023-09-17 17:29:45,462 basehttp 24292 20076 "GET /seminar3/about/ HTTP/1.1" 200 845
+INFO 2023-09-17 17:29:46,682 basehttp 24292 20076 "GET /seminar3/about/ HTTP/1.1" 200 845
+INFO 2023-09-17 17:29:47,258 basehttp 24292 20076 "GET /seminar3/about/ HTTP/1.1" 200 845
+INFO 2023-09-17 17:30:00,903 basehttp 24292 20076 "GET /seminar3/home/ HTTP/1.1" 200 942
+INFO 2023-09-17 17:37:29,449 autoreload 1752 7036 Watching for file changes with StatReloader
+INFO 2023-09-17 17:37:33,758 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:35,359 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:36,893 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:37,607 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:38,415 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:38,846 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:39,063 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:39,310 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:39,481 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:39,654 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:39,830 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1023
+INFO 2023-09-17 17:37:47,341 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 923
+INFO 2023-09-17 17:37:49,312 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 923
+INFO 2023-09-17 17:37:50,095 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 923
+INFO 2023-09-17 17:38:32,656 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 922
+INFO 2023-09-17 17:38:33,685 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1024
+INFO 2023-09-17 17:38:35,347 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 922
+INFO 2023-09-17 17:38:37,100 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1024
+INFO 2023-09-17 17:38:39,245 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 922
+INFO 2023-09-17 17:39:08,536 basehttp 1752 6668 "GET /seminar3/about/ HTTP/1.1" 200 931
+INFO 2023-09-17 17:39:12,097 basehttp 1752 6668 "GET /seminar3/home/ HTTP/1.1" 200 1024
+INFO 2023-09-17 17:42:22,514 autoreload 1752 7036 D:\обучение\Django\seminar_1\my_project\my_project\settings.py changed, reloading.
+INFO 2023-09-17 17:42:22,894 autoreload 16548 5244 Watching for file changes with StatReloader
+INFO 2023-09-17 18:07:10,904 autoreload 24884 20028 Watching for file changes with StatReloader
+INFO 2023-09-17 18:07:17,082 basehttp 24884 23792 "GET /seminar3/home/ HTTP/1.1" 200 1030
+WARNING 2023-09-17 18:07:17,112 log 24884 23792 Not Found: /favicon.ico
+WARNING 2023-09-17 18:07:17,113 basehttp 24884 23792 "GET /favicon.ico HTTP/1.1" 404 2987
+INFO 2023-09-17 18:07:18,006 basehttp 24884 23792 "GET /seminar3/home/ HTTP/1.1" 200 1030
+INFO 2023-09-17 18:07:19,474 basehttp 24884 23792 "GET /seminar3/about/ HTTP/1.1" 200 928
+INFO 2023-09-17 18:07:21,168 basehttp 24884 23792 "GET /seminar3/home/ HTTP/1.1" 200 1030
+INFO 2023-09-17 18:10:31,922 autoreload 8348 6160 Watching for file changes with StatReloader
+INFO 2023-09-17 18:10:35,556 basehttp 8348 9836 "GET /seminar3/home/ HTTP/1.1" 200 1038
+INFO 2023-09-17 18:10:36,937 basehttp 8348 9836 "GET /seminar3/home/ HTTP/1.1" 200 1038
+INFO 2023-09-17 18:10:37,903 basehttp 8348 9836 "GET /seminar3/about/ HTTP/1.1" 200 928
+INFO 2023-09-17 18:10:41,392 basehttp 8348 9836 "GET /seminar3/home/ HTTP/1.1" 200 1038
+INFO 2023-09-17 18:39:22,666 autoreload 21044 20944 Watching for file changes with StatReloader
+INFO 2023-09-17 18:40:23,589 autoreload 10344 24140 Watching for file changes with StatReloader
+WARNING 2023-09-17 18:40:33,229 log 10344 24836 Not Found: /seminar3/game1
+WARNING 2023-09-17 18:40:33,230 basehttp 10344 24836 "GET /seminar3/game1 HTTP/1.1" 404 3643
+INFO 2023-09-17 18:41:26,910 basehttp 10344 24836 "GET /seminar3/game1/5 HTTP/1.1" 200 210
+INFO 2023-09-17 18:41:31,040 basehttp 10344 24836 "GET /seminar3/game1/5 HTTP/1.1" 200 210
+INFO 2023-09-17 18:41:33,883 basehttp 10344 24836 "GET /seminar3/game1/1 HTTP/1.1" 200 210
+WARNING 2023-09-17 18:41:38,263 log 10344 24836 Not Found: /seminar3/game1/
+WARNING 2023-09-17 18:41:38,263 basehttp 10344 24836 "GET /seminar3/game1/ HTTP/1.1" 404 3646
+WARNING 2023-09-17 18:41:42,406 log 10344 24836 Not Found: /seminar3/game2
+WARNING 2023-09-17 18:41:42,407 basehttp 10344 24836 "GET /seminar3/game2 HTTP/1.1" 404 3643
+WARNING 2023-09-17 18:41:48,338 log 10344 24836 Not Found: /seminar3/game2/
+WARNING 2023-09-17 18:41:48,338 basehttp 10344 24836 "GET /seminar3/game2/ HTTP/1.1" 404 3646
+INFO 2023-09-17 18:41:51,099 basehttp 10344 24836 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:19,895 autoreload 2452 19260 Watching for file changes with StatReloader
+INFO 2023-09-17 18:42:30,500 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:31,219 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:31,452 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:31,654 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:31,844 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:32,022 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:32,187 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:42:32,336 basehttp 2452 21224 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:44:31,371 autoreload 2452 19260 D:\обучение\Django\seminar_1\my_project\seminar3_app\views.py changed, reloading.
+INFO 2023-09-17 18:44:31,763 autoreload 20940 3812 Watching for file changes with StatReloader
+INFO 2023-09-17 18:44:33,361 basehttp 20940 21108 "GET /seminar3/game2/2 HTTP/1.1" 200 186
+INFO 2023-09-17 18:44:39,610 basehttp 20940 21108 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:45:45,303 autoreload 20940 3812 D:\обучение\Django\seminar_1\my_project\seminar3_app\views.py changed, reloading.
+INFO 2023-09-17 18:45:45,703 autoreload 25100 17088 Watching for file changes with StatReloader
+INFO 2023-09-17 18:46:20,467 autoreload 21196 2556 Watching for file changes with StatReloader
+INFO 2023-09-17 18:46:24,030 basehttp 21196 22164 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:46:24,675 basehttp 21196 22164 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:46:24,848 basehttp 21196 22164 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:48:00,419 autoreload 21196 2556 D:\обучение\Django\seminar_1\my_project\seminar3_app\views.py changed, reloading.
+INFO 2023-09-17 18:48:00,820 autoreload 23816 25316 Watching for file changes with StatReloader
+INFO 2023-09-17 18:48:06,122 basehttp 23816 20624 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:48:06,759 basehttp 23816 20624 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:48:06,941 basehttp 23816 20624 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:49:58,453 autoreload 23816 25316 D:\обучение\Django\seminar_1\my_project\seminar3_app\urls.py changed, reloading.
+INFO 2023-09-17 18:49:58,844 autoreload 22336 23684 Watching for file changes with StatReloader
+INFO 2023-09-17 18:50:02,330 autoreload 17084 6064 Watching for file changes with StatReloader
+INFO 2023-09-17 18:51:49,565 autoreload 21764 24148 Watching for file changes with StatReloader
+INFO 2023-09-17 18:51:49,774 basehttp 21764 11960 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:51:53,260 basehttp 21764 11960 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:51:54,445 basehttp 21764 11960 "GET /seminar3/game1/4 HTTP/1.1" 200 210
+INFO 2023-09-17 18:53:36,599 autoreload 17648 10376 Watching for file changes with StatReloader
+INFO 2023-09-17 18:53:40,625 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:41,329 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:41,532 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:41,704 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:41,869 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:42,022 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:42,178 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:42,346 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:42,509 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:42,683 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:42,840 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,009 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,167 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,322 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,474 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,626 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,776 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:43,937 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:53:44,087 basehttp 17648 6160 "GET /seminar3/game1/4 HTTP/1.1" 200 206
+INFO 2023-09-17 18:58:20,382 autoreload 3828 3212 Watching for file changes with StatReloader
+INFO 2023-09-17 18:58:24,966 basehttp 3828 8220 "GET /seminar3/game1/4 HTTP/1.1" 200 235
+INFO 2023-09-17 18:58:28,565 basehttp 3828 8220 "GET /seminar3/game2/2 HTTP/1.1" 200 211
+INFO 2023-09-17 18:58:30,762 basehttp 3828 8220 "GET /seminar3/game2/2 HTTP/1.1" 200 211
+INFO 2023-09-17 18:59:18,335 autoreload 21276 2068 Watching for file changes with StatReloader
+INFO 2023-09-17 18:59:21,765 basehttp 21276 12452 "GET /seminar3/game2/2 HTTP/1.1" 200 353
+INFO 2023-09-17 18:59:25,398 basehttp 21276 12452 "GET /seminar3/game1/4 HTTP/1.1" 200 535
+INFO 2023-09-17 18:59:35,300 basehttp 21276 12452 "GET /seminar3/game2/5 HTTP/1.1" 200 566
+INFO 2023-09-17 19:33:51,903 autoreload 13496 9340 Watching for file changes with StatReloader
+INFO 2023-09-17 19:36:38,889 autoreload 23984 9376 Watching for file changes with StatReloader
+INFO 2023-09-17 19:36:48,222 basehttp 23984 17792 "GET /seminar3/game2/5 HTTP/1.1" 200 627
+WARNING 2023-09-17 19:36:55,630 log 23984 17792 Not Found: /seminar3/author/
+WARNING 2023-09-17 19:36:55,630 basehttp 23984 17792 "GET /seminar3/author/ HTTP/1.1" 404 4054
+INFO 2023-09-17 19:36:59,212 basehttp 23984 17792 "GET /seminar3/author/2 HTTP/1.1" 301 0
+WARNING 2023-09-17 19:36:59,219 log 23984 7124 Not Found: /seminar3/author/2/
+WARNING 2023-09-17 19:36:59,219 basehttp 23984 7124 "GET /seminar3/author/2/ HTTP/1.1" 404 4030
+INFO 2023-09-17 19:37:36,404 basehttp 23984 7124 "GET /seminar3/post/4 HTTP/1.1" 301 0
+WARNING 2023-09-17 19:37:36,411 log 23984 2172 Not Found: /seminar3/post/4/
+WARNING 2023-09-17 19:37:36,411 basehttp 23984 2172 "GET /seminar3/post/4/ HTTP/1.1" 404 4218
+INFO 2023-09-17 20:07:37,623 autoreload 10852 18840 Watching for file changes with StatReloader
+WARNING 2023-09-17 20:07:43,215 log 10852 1488 Not Found: /seminar3/post/4/
+WARNING 2023-09-17 20:07:43,216 basehttp 10852 1488 "GET /seminar3/post/4/ HTTP/1.1" 404 3846
+WARNING 2023-09-17 20:08:03,673 log 10852 1488 Not Found: /seminar3/posts
+WARNING 2023-09-17 20:08:03,673 basehttp 10852 1488 "GET /seminar3/posts HTTP/1.1" 404 3840
+INFO 2023-09-17 20:32:29,518 autoreload 5208 5648 Watching for file changes with StatReloader
+WARNING 2023-09-17 20:32:33,598 log 5208 25312 Not Found: /seminar3/posts
+WARNING 2023-09-17 20:32:33,598 basehttp 5208 25312 "GET /seminar3/posts HTTP/1.1" 404 3840
+WARNING 2023-09-17 20:32:34,903 log 5208 25312 Not Found: /seminar3/posts
+WARNING 2023-09-17 20:32:34,903 basehttp 5208 25312 "GET /seminar3/posts HTTP/1.1" 404 3840
+WARNING 2023-09-17 20:32:37,032 log 5208 25312 Not Found: /seminar3/post
+WARNING 2023-09-17 20:32:37,032 basehttp 5208 25312 "GET /seminar3/post HTTP/1.1" 404 3837
+WARNING 2023-09-17 20:32:40,952 log 5208 25312 Not Found: /seminar3/post/1
+WARNING 2023-09-17 20:32:40,953 basehttp 5208 25312 "GET /seminar3/post/1 HTTP/1.1" 404 3843
+INFO 2023-09-17 20:32:47,958 basehttp 5208 25312 "GET /seminar3/posts/1 HTTP/1.1" 200 151
+INFO 2023-09-17 20:32:50,413 basehttp 5208 25312 "GET /seminar3/posts/1 HTTP/1.1" 200 151
+INFO 2023-09-17 20:32:53,445 basehttp 5208 25312 "GET /seminar3/posts/2 HTTP/1.1" 200 151
+INFO 2023-09-17 20:35:56,747 autoreload 8856 7088 Watching for file changes with StatReloader
+INFO 2023-09-17 20:35:59,467 basehttp 8856 10600 "GET /seminar3/posts/2 HTTP/1.1" 200 208
+INFO 2023-09-17 20:36:37,244 autoreload 2312 1000 Watching for file changes with StatReloader
+INFO 2023-09-17 20:36:39,754 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:40,509 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:40,686 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:40,876 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:41,032 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:41,213 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:41,383 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:41,554 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:41,721 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:41,889 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:42,053 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:42,208 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:42,368 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+INFO 2023-09-17 20:36:42,533 basehttp 2312 25256 "GET /seminar3/posts/2 HTTP/1.1" 200 149
+WARNING 2023-09-17 20:36:45,201 log 2312 25256 Not Found: /seminar3/posts2
+WARNING 2023-09-17 20:36:45,201 basehttp 2312 25256 "GET /seminar3/posts2 HTTP/1.1" 404 3843
+INFO 2023-09-17 20:36:55,947 basehttp 2312 25256 "GET /seminar3/posts/1 HTTP/1.1" 200 149
+INFO 2023-09-17 20:39:48,306 basehttp 2312 25256 "GET /seminar3/posts/3 HTTP/1.1" 200 149
+INFO 2023-09-17 20:39:52,265 basehttp 2312 25256 "GET /seminar3/posts/4 HTTP/1.1" 200 149
+INFO 2023-09-17 20:43:50,728 autoreload 21196 17964 Watching for file changes with StatReloader
+INFO 2023-09-17 20:43:54,788 basehttp 21196 19812 "GET /seminar3/posts/4 HTTP/1.1" 200 148
+INFO 2023-09-17 20:43:55,677 basehttp 21196 19812 "GET /seminar3/posts/4 HTTP/1.1" 200 148
+INFO 2023-09-17 20:43:55,880 basehttp 21196 19812 "GET /seminar3/posts/4 HTTP/1.1" 200 148
+INFO 2023-09-17 20:43:56,055 basehttp 21196 19812 "GET /seminar3/posts/4 HTTP/1.1" 200 148
+INFO 2023-09-17 20:43:56,208 basehttp 21196 19812 "GET /seminar3/posts/4 HTTP/1.1" 200 148
+INFO 2023-09-17 20:43:56,438 basehttp 21196 19812 "GET /seminar3/posts/4 HTTP/1.1" 200 148
+INFO 2023-09-17 20:47:33,831 autoreload 24496 21108 Watching for file changes with StatReloader
+INFO 2023-09-17 20:47:38,093 basehttp 24496 17672 "GET /seminar3/posts/4 HTTP/1.1" 200 136
+INFO 2023-09-17 20:47:38,883 basehttp 24496 17672 "GET /seminar3/posts/4 HTTP/1.1" 200 136
+INFO 2023-09-17 20:47:39,063 basehttp 24496 17672 "GET /seminar3/posts/4 HTTP/1.1" 200 136
+INFO 2023-09-17 20:47:39,244 basehttp 24496 17672 "GET /seminar3/posts/4 HTTP/1.1" 200 136
+INFO 2023-09-17 20:47:39,410 basehttp 24496 17672 "GET /seminar3/posts/4 HTTP/1.1" 200 136
+INFO 2023-09-17 20:47:39,531 basehttp 24496 17672 "GET /seminar3/posts/4 HTTP/1.1" 200 136
+INFO 2023-09-17 20:47:42,431 basehttp 24496 17672 "GET /seminar3/posts/3 HTTP/1.1" 200 136
+INFO 2023-09-17 20:50:52,631 autoreload 24496 21108 D:\обучение\Django\seminar_1\my_project\seminar3_app\views.py changed, reloading.
+INFO 2023-09-17 20:50:53,061 autoreload 22400 20376 Watching for file changes with StatReloader
+INFO 2023-09-17 20:52:11,454 autoreload 2316 20916 Watching for file changes with StatReloader
+INFO 2023-09-17 20:52:15,172 basehttp 2316 22608 "GET /seminar3/posts/3 HTTP/1.1" 200 919
+WARNING 2023-09-17 20:52:29,675 log 2316 22608 Not Found: /
+WARNING 2023-09-17 20:52:29,676 basehttp 2316 22608 "GET / HTTP/1.1" 404 2936
+INFO 2023-09-17 21:17:53,773 autoreload 7300 23820 Watching for file changes with StatReloader
+INFO 2023-09-17 21:18:05,280 basehttp 7300 3368 "GET /seminar3/posts/3 HTTP/1.1" 200 1039
+INFO 2023-09-17 21:18:08,340 basehttp 7300 3368 "GET /seminar3/posts_author/26 HTTP/1.1" 200 175
+INFO 2023-09-17 21:18:14,473 basehttp 7300 3368 "GET /seminar3/posts_author/30 HTTP/1.1" 200 176
+INFO 2023-09-17 21:19:25,854 autoreload 14224 9608 Watching for file changes with StatReloader
+INFO 2023-09-17 21:19:28,513 basehttp 14224 11416 "GET /seminar3/posts_author/30 HTTP/1.1" 200 178
+WARNING 2023-09-17 21:19:36,306 log 14224 11416 Not Found: /seminar3/posts_author/
+WARNING 2023-09-17 21:19:36,306 basehttp 14224 11416 "GET /seminar3/posts_author/ HTTP/1.1" 404 4068
+WARNING 2023-09-17 21:19:41,368 log 14224 11416 Not Found: /seminar3/
+WARNING 2023-09-17 21:19:41,369 basehttp 14224 11416 "GET /seminar3/ HTTP/1.1" 404 4029
+INFO 2023-09-17 21:19:49,401 basehttp 14224 11416 "GET /seminar3/posts/3 HTTP/1.1" 200 1039
+INFO 2023-09-17 21:19:52,112 basehttp 14224 11416 "GET /seminar3/posts_author/29 HTTP/1.1" 200 176
+INFO 2023-09-17 21:25:36,843 autoreload 16560 11072 Watching for file changes with StatReloader
+INFO 2023-09-17 21:25:41,311 basehttp 16560 20164 "GET /seminar3/posts_author/29 HTTP/1.1" 200 176
+WARNING 2023-09-17 21:25:45,992 log 16560 20164 Not Found: /seminar3/5
+WARNING 2023-09-17 21:25:45,993 basehttp 16560 20164 "GET /seminar3/5 HTTP/1.1" 404 4032
+INFO 2023-09-17 21:26:01,069 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:02,772 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:04,066 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:04,691 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:05,135 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:05,324 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:05,485 basehttp 16560 20164 "GET /seminar3/posts/8 HTTP/1.1" 200 901
+INFO 2023-09-17 21:26:19,488 autoreload 18072 21924 Watching for file changes with StatReloader
+INFO 2023-09-17 21:26:22,294 basehttp 18072 18220 "GET /seminar3/posts/8 HTTP/1.1" 200 1001
+INFO 2023-09-17 21:26:24,244 basehttp 18072 18220 "GET /seminar3/posts_author/74 HTTP/1.1" 200 176
+INFO 2023-09-24 11:18:56,603 autoreload 27656 16392 Watching for file changes with StatReloader
+WARNING 2023-09-24 11:19:00,358 log 27656 12436 Not Found: /
+WARNING 2023-09-24 11:19:00,358 basehttp 27656 12436 "GET / HTTP/1.1" 404 3040
+WARNING 2023-09-24 11:19:00,423 log 27656 12436 Not Found: /favicon.ico
+WARNING 2023-09-24 11:19:00,424 basehttp 27656 12436 "GET /favicon.ico HTTP/1.1" 404 3091
+WARNING 2023-09-24 11:19:37,921 log 27656 12436 Not Found: /hw3
+WARNING 2023-09-24 11:19:37,922 basehttp 27656 12436 "GET /hw3 HTTP/1.1" 404 3067
+WARNING 2023-09-24 11:19:57,833 log 27656 12436 Not Found: /hw3/orders
+WARNING 2023-09-24 11:19:57,834 basehttp 27656 12436 "GET /hw3/orders HTTP/1.1" 404 3383
+WARNING 2023-09-24 11:20:02,011 log 27656 12436 Not Found: /hw3/orders
+WARNING 2023-09-24 11:20:02,012 basehttp 27656 12436 "GET /hw3/orders HTTP/1.1" 404 3383
+INFO 2023-09-24 11:20:09,103 basehttp 27656 12436 "GET /hw3/orders/2 HTTP/1.1" 200 194
+WARNING 2023-09-24 11:20:17,338 log 27656 12436 Not Found: /hw3/orders/
+WARNING 2023-09-24 11:20:17,338 basehttp 27656 12436 "GET /hw3/orders/ HTTP/1.1" 404 3386
+ERROR 2023-09-24 11:20:33,327 log 27656 12436 Internal Server Error: /hw3/orders_customer/2
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 11:20:33,329 basehttp 27656 12436 "GET /hw3/orders_customer/2 HTTP/1.1" 500 83540
+INFO 2023-09-24 11:20:52,679 basehttp 27656 12436 "GET /hw3/orders/10 HTTP/1.1" 200 194
+ERROR 2023-09-24 11:21:03,817 log 27656 12436 Internal Server Error: /hw3/orders_customer/10
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 11:21:03,818 basehttp 27656 12436 "GET /hw3/orders_customer/10 HTTP/1.1" 500 83407
+INFO 2023-09-24 11:27:20,630 autoreload 9620 27924 Watching for file changes with StatReloader
+INFO 2023-09-24 11:28:00,808 basehttp 9620 13776 "GET /hw3/orders/10 HTTP/1.1" 200 1514
+INFO 2023-09-24 11:28:13,025 basehttp 9620 13776 "GET /hw3/orders/1 HTTP/1.1" 200 194
+INFO 2023-09-24 11:28:19,296 basehttp 9620 13776 "GET /hw3/orders/10 HTTP/1.1" 200 1514
+INFO 2023-09-24 11:30:02,934 autoreload 16652 20928 Watching for file changes with StatReloader
+INFO 2023-09-24 11:30:05,156 basehttp 16652 28652 "GET /hw3/orders/10 HTTP/1.1" 200 1554
+INFO 2023-09-24 11:30:49,217 basehttp 16652 28652 "GET /hw3/orders/10 HTTP/1.1" 200 1548
+ERROR 2023-09-24 11:32:56,180 log 16652 28652 Internal Server Error: /hw3/orders/10
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-09-24 11:32:56,184 basehttp 16652 28652 "GET /hw3/orders/10 HTTP/1.1" 500 155310
+INFO 2023-09-24 11:33:22,942 autoreload 16652 20928 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py changed, reloading.
+INFO 2023-09-24 11:33:23,338 autoreload 13600 19056 Watching for file changes with StatReloader
+ERROR 2023-09-24 11:33:52,591 log 13600 16324 Internal Server Error: /hw3/orders/10
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 25, in get_context_data
+    customer = Client.objects.get(pk=self.kwargs['pk'])
+                                     ~~~~~~~~~~~^^^^^^
+KeyError: 'pk'
+ERROR 2023-09-24 11:33:52,593 basehttp 13600 16324 "GET /hw3/orders/10 HTTP/1.1" 500 83219
+ERROR 2023-09-24 11:34:16,814 log 13600 16324 Internal Server Error: /hw3/orders/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 25, in get_context_data
+    customer = Client.objects.get(pk=self.kwargs['pk'])
+                                     ~~~~~~~~~~~^^^^^^
+KeyError: 'pk'
+ERROR 2023-09-24 11:34:16,816 basehttp 13600 16324 "GET /hw3/orders/1 HTTP/1.1" 500 83064
+ERROR 2023-09-24 11:34:18,487 log 13600 16324 Internal Server Error: /hw3/orders/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 25, in get_context_data
+    customer = Client.objects.get(pk=self.kwargs['pk'])
+                                     ~~~~~~~~~~~^^^^^^
+KeyError: 'pk'
+ERROR 2023-09-24 11:34:18,489 basehttp 13600 16324 "GET /hw3/orders/1 HTTP/1.1" 500 83201
+INFO 2023-09-24 11:34:25,737 autoreload 13600 19056 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py changed, reloading.
+INFO 2023-09-24 11:34:26,133 autoreload 7340 3452 Watching for file changes with StatReloader
+INFO 2023-09-24 11:34:30,441 basehttp 7340 4244 "GET /hw3/orders/1 HTTP/1.1" 200 188
+INFO 2023-09-24 11:34:33,914 basehttp 7340 4244 "GET /hw3/orders/10 HTTP/1.1" 200 1718
+INFO 2023-09-24 12:46:10,709 autoreload 17564 21776 Watching for file changes with StatReloader
+INFO 2023-09-24 12:46:15,066 basehttp 17564 16652 "GET /hw3/orders/10 HTTP/1.1" 200 188
+INFO 2023-09-24 12:46:15,953 basehttp 17564 16652 "GET /hw3/orders/10 HTTP/1.1" 200 188
+INFO 2023-09-24 12:46:18,382 basehttp 17564 16652 "GET /hw3/orders/1 HTTP/1.1" 200 1529
+ERROR 2023-09-24 12:46:34,940 log 17564 16652 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:46:34,942 basehttp 17564 16652 "GET /hw3/orders_customer/1 HTTP/1.1" 500 83571
+INFO 2023-09-24 12:48:40,650 autoreload 17564 21776 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py changed, reloading.
+INFO 2023-09-24 12:48:41,063 autoreload 17764 17232 Watching for file changes with StatReloader
+INFO 2023-09-24 12:50:05,753 autoreload 17764 17232 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py changed, reloading.
+INFO 2023-09-24 12:50:06,160 autoreload 8392 25932 Watching for file changes with StatReloader
+INFO 2023-09-24 12:51:57,399 autoreload 8392 25932 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\urls.py changed, reloading.
+INFO 2023-09-24 12:51:57,786 autoreload 15656 27168 Watching for file changes with StatReloader
+ERROR 2023-09-24 12:52:03,002 log 15656 22488 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 37, in get_context_data
+    order.views += 1
+    ^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:52:03,004 basehttp 15656 22488 "GET /hw3/orders_customer/1 HTTP/1.1" 500 84966
+ERROR 2023-09-24 12:52:04,015 log 15656 22488 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 109, in get
+    context = self.get_context_data(object=self.object)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 37, in get_context_data
+    order.views += 1
+    ^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:52:04,016 basehttp 15656 22488 "GET /hw3/orders_customer/1 HTTP/1.1" 500 84966
+INFO 2023-09-24 12:52:13,565 basehttp 15656 22488 "GET /hw3/orders/1 HTTP/1.1" 200 188
+INFO 2023-09-24 12:52:16,352 basehttp 15656 22488 "GET /hw3/orders/1 HTTP/1.1" 200 188
+INFO 2023-09-24 12:52:19,300 basehttp 15656 22488 "GET /hw3/orders/2 HTTP/1.1" 200 188
+INFO 2023-09-24 12:52:37,268 basehttp 15656 22488 "GET /hw3/orders/1 HTTP/1.1" 200 188
+WARNING 2023-09-24 12:52:44,697 log 15656 22488 Not Found: /hw3/order/1
+WARNING 2023-09-24 12:52:44,697 basehttp 15656 22488 "GET /hw3/order/1 HTTP/1.1" 404 3386
+INFO 2023-09-24 12:53:17,704 autoreload 15656 27168 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\urls.py changed, reloading.
+INFO 2023-09-24 12:53:18,103 autoreload 25424 20176 Watching for file changes with StatReloader
+INFO 2023-09-24 12:53:24,762 basehttp 25424 7080 "GET /hw3/orders/1 HTTP/1.1" 200 1529
+ERROR 2023-09-24 12:53:38,343 log 25424 7080 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:53:38,345 basehttp 25424 7080 "GET /hw3/orders_customer/1 HTTP/1.1" 500 83571
+ERROR 2023-09-24 12:55:49,939 log 25424 7080 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:55:49,940 basehttp 25424 7080 "GET /hw3/orders_customer/1 HTTP/1.1" 500 83708
+ERROR 2023-09-24 12:55:50,748 log 25424 7080 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:55:50,750 basehttp 25424 7080 "GET /hw3/orders_customer/1 HTTP/1.1" 500 83708
+ERROR 2023-09-24 12:55:51,245 log 25424 7080 Internal Server Error: /hw3/orders_customer/1
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\views.py", line 14, in get_object
+    obj.views += 1
+    ^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'views'
+ERROR 2023-09-24 12:55:51,247 basehttp 25424 7080 "GET /hw3/orders_customer/1 HTTP/1.1" 500 83708
+INFO 2023-09-24 13:00:02,342 autoreload 25424 20176 D:\обучение\Django\seminar_1\my_project\seminar2_hw_app\models.py changed, reloading.
+INFO 2023-09-24 13:00:02,757 autoreload 14552 3584 Watching for file changes with StatReloader
+INFO 2023-09-24 14:01:42,471 autoreload 5472 24688 Watching for file changes with StatReloader
+WARNING 2023-09-24 14:01:45,850 log 5472 18692 Not Found: /
+WARNING 2023-09-24 14:01:45,850 basehttp 5472 18692 "GET / HTTP/1.1" 404 3039
+INFO 2023-09-24 14:03:06,603 basehttp 5472 18692 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-24 14:03:06,652 basehttp 5472 15156 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:03:06,748 basehttp 5472 15156 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 14:03:06,837 basehttp 5472 15156 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-24 14:03:06,847 basehttp 5472 7648 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-24 14:03:06,847 basehttp 5472 14472 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-24 14:03:15,079 basehttp 5472 14472 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2023-09-24 14:08:02,789 autoreload 9016 11944 Watching for file changes with StatReloader
+INFO 2023-09-24 14:08:08,355 basehttp 9016 9896 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:08:08,379 basehttp 9016 9896 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-24 14:08:20,526 basehttp 9016 9896 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:08:20,556 basehttp 9016 9896 "GET /admin/ HTTP/1.1" 200 6992
+INFO 2023-09-24 14:08:20,614 basehttp 9016 9896 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-24 14:08:20,621 basehttp 9016 9896 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-24 14:08:28,072 basehttp 9016 9896 "GET /admin/auth/user/ HTTP/1.1" 200 12171
+INFO 2023-09-24 14:08:28,113 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:08:29,923 basehttp 9016 9896 "GET /admin/auth/user/ HTTP/1.1" 200 12171
+INFO 2023-09-24 14:08:29,949 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:08:31,162 basehttp 9016 9896 "GET /admin/hw_app/category/ HTTP/1.1" 200 8143
+INFO 2023-09-24 14:08:31,190 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:08:32,268 basehttp 9016 9896 "GET /admin/hw_app/product/ HTTP/1.1" 200 9737
+INFO 2023-09-24 14:08:32,296 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:04,950 basehttp 9016 9896 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 8984
+INFO 2023-09-24 14:10:04,980 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:13,925 basehttp 9016 9896 "POST /admin/hw_app/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:10:13,936 basehttp 9016 9896 "GET /admin/hw_app/category/ HTTP/1.1" 200 9610
+INFO 2023-09-24 14:10:13,962 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:17,617 basehttp 9016 9896 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 8984
+INFO 2023-09-24 14:10:17,646 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:28,925 basehttp 9016 9896 "POST /admin/hw_app/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:10:28,934 basehttp 9016 9896 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 9295
+INFO 2023-09-24 14:10:28,960 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:36,781 basehttp 9016 9896 "POST /admin/hw_app/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:10:36,791 basehttp 9016 9896 "GET /admin/hw_app/category/ HTTP/1.1" 200 10072
+INFO 2023-09-24 14:10:36,820 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:38,719 basehttp 9016 9896 "GET /admin/hw_app/category/3/change/ HTTP/1.1" 200 9240
+INFO 2023-09-24 14:10:38,748 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:42,071 basehttp 9016 9896 "GET /admin/hw_app/product/ HTTP/1.1" 200 9737
+INFO 2023-09-24 14:10:42,099 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:43,341 basehttp 9016 9896 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 14557
+INFO 2023-09-24 14:10:43,369 basehttp 9016 9896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:10:43,380 basehttp 9016 10528 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-24 14:11:10,183 basehttp 9016 10528 "POST /admin/hw_app/product/add/ HTTP/1.1" 200 14723
+INFO 2023-09-24 14:11:10,211 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:11:21,694 basehttp 9016 10528 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:11:21,706 basehttp 9016 10528 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15003
+INFO 2023-09-24 14:11:21,732 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:11:52,163 basehttp 9016 10528 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:11:52,175 basehttp 9016 10528 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15007
+INFO 2023-09-24 14:11:52,201 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:12:17,042 basehttp 9016 10528 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:12:17,055 basehttp 9016 10528 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15013
+INFO 2023-09-24 14:12:17,081 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:12:36,443 basehttp 9016 10528 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:12:36,455 basehttp 9016 10528 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15017
+INFO 2023-09-24 14:12:36,481 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:13:16,664 basehttp 9016 10528 "GET /admin/hw_app/category/ HTTP/1.1" 200 9852
+INFO 2023-09-24 14:13:16,694 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:13:17,756 basehttp 9016 10528 "GET /admin/hw_app/product/ HTTP/1.1" 200 13393
+INFO 2023-09-24 14:13:17,784 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:13:18,666 basehttp 9016 10528 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15375
+INFO 2023-09-24 14:13:18,694 basehttp 9016 10528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:16:47,243 autoreload 16416 17276 Watching for file changes with StatReloader
+INFO 2023-09-24 14:16:53,039 basehttp 16416 19588 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15375
+INFO 2023-09-24 14:16:53,067 basehttp 16416 19588 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:17:26,286 autoreload 18572 25628 Watching for file changes with StatReloader
+INFO 2023-09-24 14:17:27,710 basehttp 18572 19180 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15375
+INFO 2023-09-24 14:17:27,741 basehttp 18572 19180 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:17:30,024 basehttp 18572 19180 "GET /admin/hw_app/ HTTP/1.1" 200 5755
+INFO 2023-09-24 14:17:33,983 basehttp 18572 19180 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15375
+INFO 2023-09-24 14:18:58,932 autoreload 21168 3728 Watching for file changes with StatReloader
+INFO 2023-09-24 14:19:02,026 basehttp 21168 27832 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15678
+INFO 2023-09-24 14:19:02,054 basehttp 21168 27832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:19:03,836 basehttp 21168 27832 "GET /admin/hw_app/client/ HTTP/1.1" 200 8432
+INFO 2023-09-24 14:19:03,867 basehttp 21168 27832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:19:06,469 basehttp 21168 27832 "GET /admin/hw_app/client/add/ HTTP/1.1" 200 11988
+INFO 2023-09-24 14:19:06,498 basehttp 21168 27832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:19:06,552 basehttp 21168 27204 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-24 14:19:06,553 basehttp 21168 11176 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-24 14:19:06,578 basehttp 21168 11176 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-24 14:20:31,593 basehttp 21168 11176 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO 2023-09-24 14:20:38,446 basehttp 21168 11176 "POST /admin/hw_app/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:20:38,457 basehttp 21168 11176 "GET /admin/hw_app/client/add/ HTTP/1.1" 200 12386
+INFO 2023-09-24 14:20:38,484 basehttp 21168 11176 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:21:28,796 basehttp 21168 11176 "POST /admin/hw_app/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:21:28,808 basehttp 21168 11176 "GET /admin/hw_app/client/ HTTP/1.1" 200 10466
+INFO 2023-09-24 14:21:28,839 basehttp 21168 11176 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:21:30,613 basehttp 21168 11176 "GET /admin/hw_app/client/2/change/ HTTP/1.1" 200 12676
+INFO 2023-09-24 14:21:30,642 basehttp 21168 11176 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:22:13,716 autoreload 21168 3728 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 14:22:14,109 autoreload 26396 24424 Watching for file changes with StatReloader
+INFO 2023-09-24 14:22:17,175 basehttp 26396 7248 "GET /admin/hw_app/client/2/change/ HTTP/1.1" 200 12975
+INFO 2023-09-24 14:22:17,201 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:22:18,965 basehttp 26396 7248 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 14:22:18,993 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:22:21,285 basehttp 26396 7248 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13843
+INFO 2023-09-24 14:22:21,311 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:22:36,706 basehttp 26396 7248 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10054
+INFO 2023-09-24 14:22:36,725 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:23:03,742 basehttp 26396 7248 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10054
+INFO 2023-09-24 14:23:03,761 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:24:56,150 basehttp 26396 7248 "GET /admin/hw_app/category/ HTTP/1.1" 200 10454
+INFO 2023-09-24 14:24:56,181 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:06,332 basehttp 26396 7248 "GET /admin/hw_app/client/ HTTP/1.1" 200 10432
+INFO 2023-09-24 14:25:06,360 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:10,781 basehttp 26396 7248 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 14:25:10,809 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:12,674 basehttp 26396 7248 "GET /admin/hw_app/product/ HTTP/1.1" 200 13995
+INFO 2023-09-24 14:25:12,701 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:22,458 basehttp 26396 7248 "GET /admin/hw_app/product/?price=100.00 HTTP/1.1" 200 13624
+INFO 2023-09-24 14:25:22,487 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:27,317 basehttp 26396 7248 "GET /admin/hw_app/product/?price=121.00 HTTP/1.1" 200 13646
+INFO 2023-09-24 14:25:27,345 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:32,540 basehttp 26396 7248 "GET /admin/hw_app/product/?date_add__gte=2023-09-24+00%3A00%3A00%2B00%3A00&date_add__lt=2023-09-25+00%3A00%3A00%2B00%3A00&price=121.00 HTTP/1.1" 200 15286
+INFO 2023-09-24 14:25:32,570 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:34,468 basehttp 26396 7248 "GET /admin/hw_app/product/? HTTP/1.1" 200 13995
+INFO 2023-09-24 14:25:34,496 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:25:36,436 basehttp 26396 7248 "GET /admin/hw_app/product/? HTTP/1.1" 200 13995
+INFO 2023-09-24 14:25:36,462 basehttp 26396 7248 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:26:45,094 autoreload 26396 24424 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 14:26:45,513 autoreload 8532 15584 Watching for file changes with StatReloader
+INFO 2023-09-24 14:28:51,904 autoreload 8532 15584 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 14:28:52,367 autoreload 11664 7408 Watching for file changes with StatReloader
+INFO 2023-09-24 14:28:53,226 basehttp 11664 20124 "GET /admin/hw_app/product/? HTTP/1.1" 200 14278
+INFO 2023-09-24 14:28:53,253 basehttp 11664 20124 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:28:58,427 basehttp 11664 20124 "GET /admin/hw_app/product/?price=350.00 HTTP/1.1" 200 13821
+INFO 2023-09-24 14:28:58,456 basehttp 11664 20124 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:29:00,494 basehttp 11664 20124 "GET /admin/hw_app/product/?price=510.00 HTTP/1.1" 200 13823
+INFO 2023-09-24 14:29:00,522 basehttp 11664 20124 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:29:03,838 basehttp 11664 20124 "GET /admin/hw_app/product/? HTTP/1.1" 200 14278
+INFO 2023-09-24 14:29:03,868 basehttp 11664 20124 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:29:08,889 basehttp 11664 20124 "GET /admin/hw_app/client/ HTTP/1.1" 200 10432
+INFO 2023-09-24 14:29:08,917 basehttp 11664 20124 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:29:12,193 basehttp 11664 20124 "GET /admin/hw_app/client/2/change/ HTTP/1.1" 200 12975
+INFO 2023-09-24 14:29:12,222 basehttp 11664 20124 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:29:56,780 autoreload 11664 7408 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 14:29:57,172 autoreload 10440 22212 Watching for file changes with StatReloader
+INFO 2023-09-24 14:29:59,997 basehttp 10440 24188 "GET /admin/hw_app/client/2/change/ HTTP/1.1" 200 12975
+INFO 2023-09-24 14:30:00,026 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:01,682 basehttp 10440 24188 "GET /admin/hw_app/category/ HTTP/1.1" 200 10454
+INFO 2023-09-24 14:30:01,711 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:02,995 basehttp 10440 24188 "GET /admin/hw_app/category/3/change/ HTTP/1.1" 200 9842
+INFO 2023-09-24 14:30:03,024 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:07,990 basehttp 10440 24188 "GET /admin/hw_app/client/ HTTP/1.1" 200 10432
+INFO 2023-09-24 14:30:08,018 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:12,962 basehttp 10440 24188 "GET /admin/hw_app/client/2/change/ HTTP/1.1" 200 12975
+INFO 2023-09-24 14:30:12,991 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:15,571 basehttp 10440 24188 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 14:30:15,599 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:17,830 basehttp 10440 24188 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13843
+INFO 2023-09-24 14:30:17,860 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:23,702 basehttp 10440 24188 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10054
+INFO 2023-09-24 14:30:23,715 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:31,891 basehttp 10440 24188 "GET /admin/hw_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-24 14:30:31,927 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:33,089 basehttp 10440 24188 "GET /admin/hw_app/product/2/change/ HTTP/1.1" 200 15954
+INFO 2023-09-24 14:30:33,118 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:46,839 basehttp 10440 24188 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 14:30:46,866 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:30:48,984 basehttp 10440 24188 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13843
+INFO 2023-09-24 14:30:49,013 basehttp 10440 24188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:32:06,793 autoreload 10440 22212 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 14:32:07,192 autoreload 10220 18212 Watching for file changes with StatReloader
+INFO 2023-09-24 14:32:10,917 basehttp 10220 28436 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13326
+INFO 2023-09-24 14:32:10,946 basehttp 10220 28436 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:32:40,160 autoreload 10220 18212 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 14:32:40,567 autoreload 21120 14588 Watching for file changes with StatReloader
+INFO 2023-09-24 14:33:28,620 basehttp 21120 18596 "POST /admin/hw_app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 14:33:28,661 basehttp 21120 18596 "GET /admin/hw_app/order/ HTTP/1.1" 200 10631
+INFO 2023-09-24 14:33:28,691 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:33:32,483 basehttp 21120 18596 "GET /admin/hw_app/order/ HTTP/1.1" 200 10199
+INFO 2023-09-24 14:33:32,510 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:33:35,290 basehttp 21120 18596 "GET /admin/hw_app/order/1/change/ HTTP/1.1" 200 14240
+INFO 2023-09-24 14:33:35,320 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:13,634 basehttp 21120 18596 "GET /admin/hw_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-24 14:34:13,664 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:16,264 basehttp 21120 18596 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15578
+INFO 2023-09-24 14:34:16,295 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:29,589 basehttp 21120 18596 "GET /admin/hw_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-24 14:34:29,618 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:33,102 basehttp 21120 18596 "GET /admin/hw_app/order/ HTTP/1.1" 200 10199
+INFO 2023-09-24 14:34:33,131 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:34,853 basehttp 21120 18596 "GET /admin/hw_app/client/ HTTP/1.1" 200 10432
+INFO 2023-09-24 14:34:34,880 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:39,203 basehttp 21120 18596 "GET /admin/hw_app/category/ HTTP/1.1" 200 10454
+INFO 2023-09-24 14:34:39,233 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:40,396 basehttp 21120 18596 "GET /admin/hw_app/order/ HTTP/1.1" 200 10199
+INFO 2023-09-24 14:34:40,422 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:46,174 basehttp 21120 18596 "GET /admin/hw_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-24 14:34:46,204 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:50,986 basehttp 21120 18596 "GET /admin/hw_app/category/ HTTP/1.1" 200 10454
+INFO 2023-09-24 14:34:51,014 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:56,237 basehttp 21120 18596 "GET /admin/hw_app/order/ HTTP/1.1" 200 10199
+INFO 2023-09-24 14:34:56,266 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:34:59,922 basehttp 21120 18596 "GET /admin/hw_app/order/1/change/ HTTP/1.1" 200 14240
+INFO 2023-09-24 14:34:59,950 basehttp 21120 18596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:35:02,567 basehttp 21120 18596 "GET /admin/hw_app/order/ HTTP/1.1" 200 10199
+INFO 2023-09-24 14:35:35,035 autoreload 21120 14588 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 14:35:35,449 autoreload 9456 17864 Watching for file changes with StatReloader
+INFO 2023-09-24 14:35:35,689 basehttp 9456 23632 "GET /admin/hw_app/order/ HTTP/1.1" 200 10151
+INFO 2023-09-24 14:35:35,716 basehttp 9456 23632 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:15,554 autoreload 15520 12952 Watching for file changes with StatReloader
+INFO 2023-09-24 14:40:20,577 basehttp 15520 23116 "GET /admin/hw_app/order/ HTTP/1.1" 200 10151
+INFO 2023-09-24 14:40:20,605 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:21,604 basehttp 15520 23116 "GET /admin/hw_app/category/ HTTP/1.1" 200 10454
+INFO 2023-09-24 14:40:21,635 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:23,323 basehttp 15520 23116 "GET /admin/hw_app/client/ HTTP/1.1" 200 10336
+INFO 2023-09-24 14:40:23,351 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:23,989 basehttp 15520 23116 "GET /admin/hw_app/order/ HTTP/1.1" 200 10151
+INFO 2023-09-24 14:40:24,019 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:24,839 basehttp 15520 23116 "GET /admin/hw_app/order/1/change/ HTTP/1.1" 200 14018
+INFO 2023-09-24 14:40:24,866 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:31,679 basehttp 15520 23116 "GET /admin/hw_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-24 14:40:31,708 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:31,834 basehttp 15520 23116 "GET /admin/hw_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-24 14:40:31,859 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:34,640 basehttp 15520 23116 "GET /admin/hw_app/product/2/change/ HTTP/1.1" 200 15576
+INFO 2023-09-24 14:40:34,667 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:42,141 basehttp 15520 23116 "GET /admin/hw_app/order/ HTTP/1.1" 200 10151
+INFO 2023-09-24 14:40:42,170 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:40:45,182 basehttp 15520 23116 "GET /admin/hw_app/order/1/change/ HTTP/1.1" 200 14018
+INFO 2023-09-24 14:40:45,210 basehttp 15520 23116 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:42:29,244 autoreload 15520 12952 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 14:56:10,526 autoreload 27380 25108 Watching for file changes with StatReloader
+INFO 2023-09-24 14:56:15,106 basehttp 27380 23996 "GET /admin/hw_app/product/ HTTP/1.1" 200 55672
+INFO 2023-09-24 14:56:15,137 basehttp 27380 23996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:56:30,637 basehttp 27380 23996 "GET /admin/hw_app/product/71/change/ HTTP/1.1" 200 15748
+INFO 2023-09-24 14:56:30,667 basehttp 27380 23996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:56:35,027 basehttp 27380 23996 "GET /admin/hw_app/product/ HTTP/1.1" 200 55672
+INFO 2023-09-24 14:56:49,854 basehttp 27380 23996 "GET /admin/hw_app/product/?p=2 HTTP/1.1" 200 21120
+INFO 2023-09-24 14:56:49,884 basehttp 27380 23996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:56:58,599 basehttp 27380 23996 "GET /admin/hw_app/product/84/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 15828
+INFO 2023-09-24 14:56:58,630 basehttp 27380 23996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:57:04,250 basehttp 27380 23996 "GET /admin/hw_app/product/?p=2 HTTP/1.1" 200 21120
+INFO 2023-09-24 14:57:06,173 basehttp 27380 23996 "GET /admin/hw_app/order/ HTTP/1.1" 200 10151
+INFO 2023-09-24 14:57:06,204 basehttp 27380 23996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 14:57:07,242 basehttp 27380 23996 "GET /admin/hw_app/order/1/change/ HTTP/1.1" 200 24793
+INFO 2023-09-24 14:57:07,270 basehttp 27380 23996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:10:11,542 autoreload 8488 27312 Watching for file changes with StatReloader
+INFO 2023-09-24 15:10:16,662 basehttp 8488 10220 "GET /admin/hw_app/order/1/change/ HTTP/1.1" 200 24793
+INFO 2023-09-24 15:10:16,690 basehttp 8488 10220 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:10:22,509 basehttp 8488 10220 "GET /admin/hw_app/order/ HTTP/1.1" 200 10539
+INFO 2023-09-24 15:10:22,538 basehttp 8488 10220 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:10:25,386 basehttp 8488 10220 "GET /admin/hw_app/order/ HTTP/1.1" 200 10539
+INFO 2023-09-24 15:10:25,412 basehttp 8488 10220 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:10:31,032 basehttp 8488 10220 "GET /admin/hw_app/order/2/change/ HTTP/1.1" 200 24780
+INFO 2023-09-24 15:10:31,061 basehttp 8488 10220 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:12:01,909 autoreload 12536 7540 Watching for file changes with StatReloader
+INFO 2023-09-24 15:12:05,394 basehttp 12536 8060 "GET /admin/hw_app/order/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 15:12:05,416 basehttp 12536 8060 "GET /admin/login/?next=/admin/hw_app/order/2/change/ HTTP/1.1" 200 4311
+INFO 2023-09-24 15:12:10,884 basehttp 12536 8060 "POST /admin/login/?next=/admin/hw_app/order/2/change/ HTTP/1.1" 200 4578
+INFO 2023-09-24 15:13:11,425 autoreload 23200 18596 Watching for file changes with StatReloader
+INFO 2023-09-24 15:13:22,141 basehttp 23200 2820 - Broken pipe from ('127.0.0.1', 58512)
+INFO 2023-09-24 15:13:23,474 basehttp 23200 25832 "POST /admin/login/?next=/admin/hw_app/order/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 15:13:23,488 basehttp 23200 25832 "GET /admin/hw_app/order/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-24 15:13:23,513 basehttp 23200 25832 "GET /admin/ HTTP/1.1" 200 8074
+INFO 2023-09-24 15:13:23,575 basehttp 23200 25832 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2023-09-24 15:13:29,787 basehttp 23200 25832 "GET /admin/hw_app/product/ HTTP/1.1" 200 10339
+INFO 2023-09-24 15:13:29,816 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:31,223 basehttp 23200 25832 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 15:13:31,253 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:32,020 basehttp 23200 25832 "GET /admin/hw_app/client/ HTTP/1.1" 200 8731
+INFO 2023-09-24 15:13:32,047 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:32,680 basehttp 23200 25832 "GET /admin/hw_app/category/ HTTP/1.1" 200 8745
+INFO 2023-09-24 15:13:32,709 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:39,014 basehttp 23200 25832 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 9586
+INFO 2023-09-24 15:13:39,042 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:40,923 basehttp 23200 25832 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 15:13:40,952 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:41,543 basehttp 23200 25832 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 12670
+INFO 2023-09-24 15:13:41,572 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:44,742 basehttp 23200 25832 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 9904
+INFO 2023-09-24 15:13:44,763 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:13:52,979 basehttp 23200 25832 "POST /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10213
+INFO 2023-09-24 15:13:52,999 basehttp 23200 25832 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:20:58,256 autoreload 2740 12720 Watching for file changes with StatReloader
+INFO 2023-09-24 15:38:41,418 basehttp 2740 21152 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 12670
+INFO 2023-09-24 15:38:41,449 basehttp 2740 21152 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:38:43,661 basehttp 2740 21152 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 15:38:43,689 basehttp 2740 21152 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:38:45,379 basehttp 2740 21152 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 12670
+INFO 2023-09-24 15:38:45,408 basehttp 2740 21152 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:38:48,059 basehttp 2740 21152 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 9904
+INFO 2023-09-24 15:38:48,073 basehttp 2740 21152 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:48:45,913 autoreload 17764 18312 Watching for file changes with StatReloader
+INFO 2023-09-24 15:51:38,888 autoreload 17764 18312 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 15:51:39,296 autoreload 9564 27904 Watching for file changes with StatReloader
+INFO 2023-09-24 15:52:37,473 autoreload 9564 27904 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 15:52:37,860 autoreload 27380 20420 Watching for file changes with StatReloader
+INFO 2023-09-24 15:52:44,282 basehttp 27380 16784 "GET /admin/ HTTP/1.1" 200 7420
+INFO 2023-09-24 15:52:50,090 basehttp 27380 16784 "GET /admin/ HTTP/1.1" 200 7420
+INFO 2023-09-24 15:52:56,545 basehttp 27380 16784 "GET /admin/hw_app/client/ HTTP/1.1" 200 8875
+INFO 2023-09-24 15:52:56,577 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:52:58,497 basehttp 27380 16784 "GET /admin/hw_app/order/ HTTP/1.1" 200 8413
+INFO 2023-09-24 15:52:58,525 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:52:59,594 basehttp 27380 16784 "GET /admin/hw_app/product/ HTTP/1.1" 200 10028
+INFO 2023-09-24 15:52:59,624 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:53:01,730 basehttp 27380 16784 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 13661
+INFO 2023-09-24 15:53:01,757 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:53:04,218 basehttp 27380 16784 "GET /admin/hw_app/order/ HTTP/1.1" 200 8413
+INFO 2023-09-24 15:53:04,248 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:53:04,794 basehttp 27380 16784 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 12903
+INFO 2023-09-24 15:53:04,822 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:53:05,779 basehttp 27380 16784 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8867
+INFO 2023-09-24 15:53:05,791 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:53:14,058 basehttp 27380 16784 "GET /admin/hw_app/client/ HTTP/1.1" 200 8875
+INFO 2023-09-24 15:53:14,089 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:53:15,062 basehttp 27380 16784 "GET /admin/hw_app/client/add/ HTTP/1.1" 200 11706
+INFO 2023-09-24 15:53:15,092 basehttp 27380 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 15:53:21,886 log 27380 16784 Internal Server Error: /admin/hw_app/client/add/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: hw_app_client.date_registration
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: hw_app_client.date_registration
+ERROR 2023-09-24 15:53:21,892 basehttp 27380 16784 "POST /admin/hw_app/client/add/ HTTP/1.1" 500 198628
+INFO 2023-09-24 15:54:26,153 autoreload 27380 20420 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 15:54:26,551 autoreload 9576 12536 Watching for file changes with StatReloader
+INFO 2023-09-24 15:54:30,959 basehttp 9576 22136 "POST /admin/hw_app/client/add/ HTTP/1.1" 200 12528
+INFO 2023-09-24 15:54:30,990 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:36,174 basehttp 9576 22136 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO 2023-09-24 15:54:40,283 basehttp 9576 22136 "POST /admin/hw_app/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 15:54:40,295 basehttp 9576 22136 "GET /admin/hw_app/client/add/ HTTP/1.1" 200 12644
+INFO 2023-09-24 15:54:40,323 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:49,594 basehttp 9576 22136 "POST /admin/hw_app/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 15:54:49,615 basehttp 9576 22136 "GET /admin/hw_app/client/ HTTP/1.1" 200 10614
+INFO 2023-09-24 15:54:49,646 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:50,971 basehttp 9576 22136 "GET /admin/hw_app/category/ HTTP/1.1" 200 8745
+INFO 2023-09-24 15:54:51,000 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:52,808 basehttp 9576 22136 "GET /admin/hw_app/product/ HTTP/1.1" 200 10339
+INFO 2023-09-24 15:54:52,838 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:53,115 basehttp 9576 22136 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 15:54:53,143 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:53,483 basehttp 9576 22136 "GET /admin/hw_app/client/ HTTP/1.1" 200 10336
+INFO 2023-09-24 15:54:53,513 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:55,292 basehttp 9576 22136 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 15:54:55,320 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:57,913 basehttp 9576 22136 "GET /admin/hw_app/category/ HTTP/1.1" 200 8745
+INFO 2023-09-24 15:54:57,942 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 15:54:59,618 basehttp 9576 22136 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 9586
+INFO 2023-09-24 15:54:59,647 basehttp 9576 22136 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:06,856 autoreload 12152 11656 Watching for file changes with StatReloader
+INFO 2023-09-24 16:04:12,355 basehttp 12152 5352 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 9586
+INFO 2023-09-24 16:04:12,383 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:14,622 basehttp 12152 5352 "GET /admin/hw_app/product/ HTTP/1.1" 200 10339
+INFO 2023-09-24 16:04:14,652 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:16,161 basehttp 12152 5352 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:04:16,190 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:16,475 basehttp 12152 5352 "GET /admin/hw_app/client/ HTTP/1.1" 200 10336
+INFO 2023-09-24 16:04:16,505 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:24,019 basehttp 12152 5352 "GET /admin/hw_app/product/ HTTP/1.1" 200 10339
+INFO 2023-09-24 16:04:24,047 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:28,827 basehttp 12152 5352 "GET /admin/hw_app/category/ HTTP/1.1" 200 8745
+INFO 2023-09-24 16:04:28,858 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:30,366 basehttp 12152 5352 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 9586
+INFO 2023-09-24 16:04:30,395 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:42,829 basehttp 12152 5352 "POST /admin/hw_app/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:04:42,839 basehttp 12152 5352 "GET /admin/hw_app/category/ HTTP/1.1" 200 10236
+INFO 2023-09-24 16:04:42,869 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:48,070 basehttp 12152 5352 "GET /admin/hw_app/category/add/ HTTP/1.1" 200 9586
+INFO 2023-09-24 16:04:48,100 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:53,206 basehttp 12152 5352 "POST /admin/hw_app/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:04:53,217 basehttp 12152 5352 "GET /admin/hw_app/category/ HTTP/1.1" 200 10459
+INFO 2023-09-24 16:04:53,247 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:04:59,261 basehttp 12152 5352 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 16:04:59,291 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:05:03,255 basehttp 12152 5352 "GET /admin/hw_app/product/ HTTP/1.1" 200 10339
+INFO 2023-09-24 16:05:03,286 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:05:05,862 basehttp 12152 5352 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15111
+INFO 2023-09-24 16:05:05,891 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:05:30,939 basehttp 12152 5352 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:05:30,953 basehttp 12152 5352 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15444
+INFO 2023-09-24 16:05:30,983 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:05:51,507 basehttp 12152 5352 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:05:51,519 basehttp 12152 5352 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15443
+INFO 2023-09-24 16:05:51,545 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:06:10,297 basehttp 12152 5352 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:06:10,309 basehttp 12152 5352 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15443
+INFO 2023-09-24 16:06:10,340 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:06:24,398 basehttp 12152 5352 "POST /admin/hw_app/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:06:24,411 basehttp 12152 5352 "GET /admin/hw_app/product/add/ HTTP/1.1" 200 15443
+INFO 2023-09-24 16:06:24,440 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:06:27,609 basehttp 12152 5352 "GET /admin/hw_app/product/ HTTP/1.1" 200 14313
+INFO 2023-09-24 16:06:27,639 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:06:28,437 basehttp 12152 5352 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:06:28,465 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:06:30,242 basehttp 12152 5352 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13260
+INFO 2023-09-24 16:06:30,272 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:06,084 basehttp 12152 5352 "GET /admin/hw_app/product/ HTTP/1.1" 200 14313
+INFO 2023-09-24 16:09:06,116 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:07,787 basehttp 12152 5352 "GET /admin/hw_app/client/ HTTP/1.1" 200 10336
+INFO 2023-09-24 16:09:07,817 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:09,556 basehttp 12152 5352 "GET /admin/hw_app/category/ HTTP/1.1" 200 10235
+INFO 2023-09-24 16:09:09,585 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:10,515 basehttp 12152 5352 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:09:10,545 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:11,339 basehttp 12152 5352 "GET /admin/hw_app/product/ HTTP/1.1" 200 14313
+INFO 2023-09-24 16:09:11,368 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:12,359 basehttp 12152 5352 "GET /admin/hw_app/product/2/change/ HTTP/1.1" 200 15547
+INFO 2023-09-24 16:09:12,390 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:09:19,424 basehttp 12152 5352 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:09:19,453 basehttp 12152 5352 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:13:33,845 autoreload 20256 26028 Watching for file changes with StatReloader
+INFO 2023-09-24 16:13:41,080 basehttp 20256 14016 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:13:41,107 basehttp 20256 14016 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:13:42,507 basehttp 20256 14016 "GET /admin/hw_app/client/ HTTP/1.1" 200 13150
+INFO 2023-09-24 16:13:42,535 basehttp 20256 14016 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:07,816 autoreload 20256 26028 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 16:14:08,253 autoreload 11444 21940 Watching for file changes with StatReloader
+INFO 2023-09-24 16:14:09,013 basehttp 11444 20608 "GET /admin/hw_app/client/ HTTP/1.1" 200 13057
+INFO 2023-09-24 16:14:09,040 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:14,498 basehttp 11444 20608 "GET /admin/hw_app/product/ HTTP/1.1" 200 14313
+INFO 2023-09-24 16:14:14,527 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:30,065 basehttp 11444 20608 "POST /admin/hw_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-24 16:14:30,079 basehttp 11444 20608 "GET /admin/hw_app/product/ HTTP/1.1" 200 14312
+INFO 2023-09-24 16:14:30,110 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:35,797 basehttp 11444 20608 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:14:35,825 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:36,727 basehttp 11444 20608 "GET /admin/hw_app/client/ HTTP/1.1" 200 13057
+INFO 2023-09-24 16:14:36,756 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:40,292 basehttp 11444 20608 "GET /admin/hw_app/category/ HTTP/1.1" 200 10235
+INFO 2023-09-24 16:14:40,320 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:43,935 basehttp 11444 20608 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 16:14:43,963 basehttp 11444 20608 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:14:45,923 basehttp 11444 20608 "GET /admin/hw_app/category/ HTTP/1.1" 200 10235
+INFO 2023-09-24 16:15:15,689 autoreload 11444 21940 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 16:16:48,564 autoreload 8432 7328 Watching for file changes with StatReloader
+INFO 2023-09-24 16:17:18,034 autoreload 28592 16472 Watching for file changes with StatReloader
+INFO 2023-09-24 16:17:43,694 autoreload 28592 16472 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 16:17:44,085 autoreload 12124 21324 Watching for file changes with StatReloader
+INFO 2023-09-24 16:17:47,358 autoreload 17232 22676 Watching for file changes with StatReloader
+INFO 2023-09-24 16:19:53,560 autoreload 17232 22676 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 16:19:53,965 autoreload 16028 8428 Watching for file changes with StatReloader
+INFO 2023-09-24 16:19:56,889 autoreload 9896 25796 Watching for file changes with StatReloader
+INFO 2023-09-24 16:20:03,308 basehttp 9896 3424 "GET /admin/hw_app/category/ HTTP/1.1" 200 10235
+INFO 2023-09-24 16:20:03,334 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:06,051 basehttp 9896 3424 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:20:06,081 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:07,642 basehttp 9896 3424 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13803
+INFO 2023-09-24 16:20:07,672 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:13,705 basehttp 9896 3424 "GET /admin/hw_app/client/ HTTP/1.1" 200 13057
+INFO 2023-09-24 16:20:13,734 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:16,998 basehttp 9896 3424 "GET /admin/hw_app/product/ HTTP/1.1" 200 14312
+INFO 2023-09-24 16:20:17,027 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:22,390 basehttp 9896 3424 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 16:20:22,417 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:24,719 basehttp 9896 3424 "GET /admin/hw_app/order/add/ HTTP/1.1" 200 13803
+INFO 2023-09-24 16:20:24,748 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:29,397 basehttp 9896 3424 "GET /admin/hw_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10006
+INFO 2023-09-24 16:20:29,410 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:20:41,720 basehttp 9896 3424 "GET /admin/hw_app/product/ HTTP/1.1" 200 14312
+INFO 2023-09-24 16:20:41,750 basehttp 9896 3424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 16:23:47,664 autoreload 4368 11548 Watching for file changes with StatReloader
+INFO 2023-09-24 16:24:17,397 autoreload 4368 11548 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 16:24:17,788 autoreload 28452 21332 Watching for file changes with StatReloader
+INFO 2023-09-24 16:28:45,533 autoreload 28452 21332 D:\обучение\Django\seminar_1\my_project\hw_app\views.py changed, reloading.
+INFO 2023-09-24 16:28:45,949 autoreload 25964 23388 Watching for file changes with StatReloader
+INFO 2023-09-24 16:31:08,675 autoreload 25964 23388 D:\обучение\Django\seminar_1\my_project\hw_app\views.py changed, reloading.
+INFO 2023-09-24 16:31:09,098 autoreload 17496 20256 Watching for file changes with StatReloader
+INFO 2023-09-24 16:32:07,412 autoreload 17496 20256 D:\обучение\Django\seminar_1\my_project\hw_app\urls.py changed, reloading.
+INFO 2023-09-24 16:32:07,827 autoreload 26764 17520 Watching for file changes with StatReloader
+INFO 2023-09-24 16:32:46,915 basehttp 26764 9052 "GET /admin/hw_app/product/ HTTP/1.1" 200 14312
+INFO 2023-09-24 16:32:46,943 basehttp 26764 9052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-09-24 16:33:39,474 log 26764 9052 Not Found: /hw/
+WARNING 2023-09-24 16:33:39,475 basehttp 26764 9052 "GET /hw/ HTTP/1.1" 404 3649
+INFO 2023-09-24 16:33:49,289 basehttp 26764 9052 "GET /hw/upload HTTP/1.1" 301 0
+ERROR 2023-09-24 16:33:49,363 log 26764 19204 Internal Server Error: /hw/upload/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 74, in upload_image
+    return render(request, 'hw_app/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw_app/upload_image.html
+ERROR 2023-09-24 16:33:49,365 basehttp 26764 19204 "GET /hw/upload/ HTTP/1.1" 500 85478
+INFO 2023-09-24 16:34:52,084 autoreload 26764 17520 D:\обучение\Django\seminar_1\my_project\hw_app\views.py changed, reloading.
+INFO 2023-09-24 16:34:52,478 autoreload 20336 9348 Watching for file changes with StatReloader
+INFO 2023-09-24 16:34:55,105 basehttp 20336 18380 "GET /hw/upload/ HTTP/1.1" 200 597
+INFO 2023-09-24 16:35:35,601 autoreload 20336 9348 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 16:35:35,995 autoreload 21408 14856 Watching for file changes with StatReloader
+INFO 2023-09-24 16:36:19,804 autoreload 4584 21904 Watching for file changes with StatReloader
+INFO 2023-09-24 16:36:31,656 basehttp 4584 18180 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-24 16:36:31,691 basehttp 4584 17164 "GET /admin/ HTTP/1.1" 200 10572
+INFO 2023-09-24 16:36:38,360 basehttp 4584 17164 "GET /admin/hw_app/category/ HTTP/1.1" 200 10235
+INFO 2023-09-24 16:36:38,390 basehttp 4584 17164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 16:36:42,268 log 4584 17164 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 16:36:42,273 basehttp 4584 17164 "GET /admin/hw_app/product/ HTTP/1.1" 500 169028
+INFO 2023-09-24 16:57:43,446 autoreload 16336 5384 Watching for file changes with StatReloader
+ERROR 2023-09-24 16:57:49,334 log 16336 19104 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 16:57:49,340 basehttp 16336 19104 "GET /admin/hw_app/product/ HTTP/1.1" 500 169165
+INFO 2023-09-24 16:57:56,663 basehttp 16336 19104 "GET /upload HTTP/1.1" 301 0
+ERROR 2023-09-24 16:57:56,682 log 16336 16316 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 124, in upload_image
+    return render(request, 'hw_app/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw_app/upload_image.html
+ERROR 2023-09-24 16:57:56,684 basehttp 16336 16316 "GET /upload/ HTTP/1.1" 500 85447
+WARNING 2023-09-24 16:58:26,814 log 16336 16316 Not Found: /upload/products
+WARNING 2023-09-24 16:58:26,815 basehttp 16336 16316 "GET /upload/products HTTP/1.1" 404 3230
+WARNING 2023-09-24 16:58:49,670 log 16336 16316 Not Found: /upload/upload_image
+WARNING 2023-09-24 16:58:49,671 basehttp 16336 16316 "GET /upload/upload_image HTTP/1.1" 404 3242
+INFO 2023-09-24 16:59:21,573 autoreload 16336 5384 D:\обучение\Django\seminar_1\my_project\my_project\urls.py changed, reloading.
+INFO 2023-09-24 16:59:22,042 autoreload 9308 10788 Watching for file changes with StatReloader
+WARNING 2023-09-24 16:59:26,828 log 9308 27020 Not Found: /hw3/orders/1
+WARNING 2023-09-24 16:59:26,829 basehttp 9308 27020 "GET /hw3/orders/1 HTTP/1.1" 404 3093
+WARNING 2023-09-24 16:59:30,573 log 9308 27020 Not Found: /hw3/
+WARNING 2023-09-24 16:59:30,574 basehttp 9308 27020 "GET /hw3/ HTTP/1.1" 404 3069
+WARNING 2023-09-24 16:59:40,350 log 9308 27020 Not Found: /hw3
+WARNING 2023-09-24 16:59:40,350 basehttp 9308 27020 "GET /hw3 HTTP/1.1" 404 3066
+WARNING 2023-09-24 16:59:44,654 log 9308 27020 Not Found: /hw
+WARNING 2023-09-24 16:59:44,654 basehttp 9308 27020 "GET /hw HTTP/1.1" 404 3063
+WARNING 2023-09-24 16:59:49,497 log 9308 27020 Not Found: /hw/
+WARNING 2023-09-24 16:59:49,497 basehttp 9308 27020 "GET /hw/ HTTP/1.1" 404 4036
+INFO 2023-09-24 16:59:58,934 basehttp 9308 27020 "GET /hw/db HTTP/1.1" 301 0
+INFO 2023-09-24 16:59:58,940 basehttp 9308 22944 "GET /hw/db/ HTTP/1.1" 200 347
+ERROR 2023-09-24 17:00:11,424 log 9308 22944 Internal Server Error: /hw/upload/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 124, in upload_image
+    return render(request, 'hw_app/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw_app/upload_image.html
+ERROR 2023-09-24 17:00:11,426 basehttp 9308 22944 "GET /hw/upload/ HTTP/1.1" 500 85483
+WARNING 2023-09-24 17:00:14,942 log 9308 22944 Not Found: /hw/
+WARNING 2023-09-24 17:00:14,942 basehttp 9308 22944 "GET /hw/ HTTP/1.1" 404 4036
+INFO 2023-09-24 17:00:24,078 basehttp 9308 22944 "GET /hw/products HTTP/1.1" 301 0
+ERROR 2023-09-24 17:00:24,164 log 9308 22764 Internal Server Error: /hw/products/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 87, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-24 17:00:24,168 basehttp 9308 22764 "GET /hw/products/ HTTP/1.1" 500 136618
+WARNING 2023-09-24 17:00:45,838 log 9308 22764 Not Found: /hw/change_product
+WARNING 2023-09-24 17:00:45,839 basehttp 9308 22764 "GET /hw/change_product HTTP/1.1" 404 4078
+INFO 2023-09-24 17:00:50,374 basehttp 9308 22764 "GET /hw/change_product/2 HTTP/1.1" 301 0
+ERROR 2023-09-24 17:00:50,400 log 9308 16936 Internal Server Error: /hw/change_product/2/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 91, in change_product
+    product = models.Product.objects.filter(pk=product_id).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:00:50,404 basehttp 9308 16936 "GET /hw/change_product/2/ HTTP/1.1" 500 138479
+INFO 2023-09-24 17:00:58,148 basehttp 9308 16936 "GET /admin/ HTTP/1.1" 200 10572
+ERROR 2023-09-24 17:01:00,286 log 9308 16936 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:01:00,291 basehttp 9308 16936 "GET /admin/hw_app/product/ HTTP/1.1" 500 169012
+INFO 2023-09-24 17:04:23,045 autoreload 9308 10788 D:\обучение\Django\seminar_1\my_project\my_project\urls.py changed, reloading.
+INFO 2023-09-24 17:04:23,543 autoreload 25852 26840 Watching for file changes with StatReloader
+INFO 2023-09-24 17:10:55,149 basehttp 25852 15624 "GET /admin/ HTTP/1.1" 200 10572
+INFO 2023-09-24 17:10:56,798 basehttp 25852 15624 "GET /admin/hw_app/order/ HTTP/1.1" 200 8724
+INFO 2023-09-24 17:10:56,831 basehttp 25852 15624 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:10:57,832 basehttp 25852 15624 "GET /admin/hw_app/client/ HTTP/1.1" 200 13057
+INFO 2023-09-24 17:10:57,863 basehttp 25852 15624 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:10:59,335 basehttp 25852 15624 "GET /admin/hw_app/category/ HTTP/1.1" 200 10235
+INFO 2023-09-24 17:10:59,364 basehttp 25852 15624 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:11:00,355 basehttp 25852 15624 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 17:11:00,384 basehttp 25852 15624 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 17:11:04,420 log 25852 15624 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:11:04,425 basehttp 25852 15624 "GET /admin/hw_app/product/ HTTP/1.1" 500 169037
+ERROR 2023-09-24 17:12:43,176 log 25852 15624 Internal Server Error: /hw/upload/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 124, in upload_image
+    return render(request, 'hw_app/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw_app/upload_image.html
+ERROR 2023-09-24 17:12:43,177 basehttp 25852 15624 "GET /hw/upload/ HTTP/1.1" 500 85483
+INFO 2023-09-24 17:13:16,885 autoreload 25852 26840 D:\обучение\Django\seminar_1\my_project\hw_app\views.py changed, reloading.
+INFO 2023-09-24 17:13:17,343 autoreload 9912 25928 Watching for file changes with StatReloader
+ERROR 2023-09-24 17:13:20,429 log 9912 17496 Internal Server Error: /hw/upload/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base1.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 124, in upload_image
+    return render(request, 'hw_app/upload.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base1.html
+ERROR 2023-09-24 17:13:20,433 basehttp 9912 17496 "GET /hw/upload/ HTTP/1.1" 500 136042
+INFO 2023-09-24 17:16:19,570 autoreload 12448 7080 Watching for file changes with StatReloader
+INFO 2023-09-24 17:16:26,747 basehttp 12448 19024 "GET /hw/upload/ HTTP/1.1" 200 656
+INFO 2023-09-24 17:16:45,885 basehttp 12448 19024 "POST /hw/upload/ HTTP/1.1" 200 656
+INFO 2023-09-24 17:17:26,471 basehttp 12448 19024 "POST /hw/upload/ HTTP/1.1" 200 656
+INFO 2023-09-24 17:17:35,315 basehttp 12448 19024 "POST /hw/upload/ HTTP/1.1" 200 656
+INFO 2023-09-24 17:17:39,366 basehttp 12448 19024 "POST /hw/upload/ HTTP/1.1" 200 656
+ERROR 2023-09-24 17:18:26,638 log 12448 19024 Internal Server Error: /hw/products/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 87, in get_all_products
+    return render(request, 'hw_app/products.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:18:26,645 basehttp 12448 19024 "GET /hw/products/ HTTP/1.1" 500 214881
+WARNING 2023-09-24 17:18:51,359 log 12448 19024 Not Found: /hw/change_product
+WARNING 2023-09-24 17:18:51,359 basehttp 12448 19024 "GET /hw/change_product HTTP/1.1" 404 4078
+INFO 2023-09-24 17:18:55,815 basehttp 12448 19024 "GET /hw/change_product/2 HTTP/1.1" 301 0
+ERROR 2023-09-24 17:18:55,842 log 12448 9528 Internal Server Error: /hw/change_product/2/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 91, in change_product
+    product = models.Product.objects.filter(pk=product_id).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1057, in first
+    for obj in queryset[:1]:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:18:55,845 basehttp 12448 9528 "GET /hw/change_product/2/ HTTP/1.1" 500 138479
+INFO 2023-09-24 17:19:09,314 basehttp 12448 9528 "GET /hw/upload/ HTTP/1.1" 200 656
+INFO 2023-09-24 17:19:10,124 basehttp 12448 9528 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 17:19:11,824 basehttp 12448 9528 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 17:19:11,852 basehttp 12448 9528 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 17:19:13,112 log 12448 9528 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:19:13,117 basehttp 12448 9528 "GET /admin/hw_app/product/ HTTP/1.1" 500 169037
+INFO 2023-09-24 17:19:15,962 basehttp 12448 9528 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 17:21:18,847 autoreload 12448 7080 D:\обучение\Django\seminar_1\my_project\hw_app\views.py changed, reloading.
+INFO 2023-09-24 17:21:19,310 autoreload 7020 17256 Watching for file changes with StatReloader
+INFO 2023-09-24 17:21:54,213 autoreload 7020 17256 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 17:21:54,659 autoreload 20172 7700 Watching for file changes with StatReloader
+INFO 2023-09-24 17:21:57,595 basehttp 20172 18904 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 200 9858
+INFO 2023-09-24 17:21:57,624 basehttp 20172 18904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:21:58,601 basehttp 20172 18904 "GET /admin/hw_app/product/ HTTP/1.1" 200 14312
+INFO 2023-09-24 17:21:58,631 basehttp 20172 18904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:21:59,949 basehttp 20172 18904 "GET /admin/hw_app/product/4/change/ HTTP/1.1" 200 15547
+INFO 2023-09-24 17:21:59,979 basehttp 20172 18904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:22:02,720 basehttp 20172 18904 "GET /admin/hw_app/product/ HTTP/1.1" 200 14312
+INFO 2023-09-24 17:32:44,313 autoreload 12720 24112 Watching for file changes with StatReloader
+INFO 2023-09-24 17:33:00,773 autoreload 12720 24112 D:\обучение\Django\seminar_1\my_project\hw_app\admin.py changed, reloading.
+INFO 2023-09-24 17:33:05,350 autoreload 2748 3236 Watching for file changes with StatReloader
+INFO 2023-09-24 17:33:12,842 basehttp 2748 16040 "GET /admin/hw_app/product/ HTTP/1.1" 200 13132
+INFO 2023-09-24 17:33:12,870 basehttp 2748 16040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:33:14,815 basehttp 2748 16040 "GET /admin/hw_app/product/3/change/ HTTP/1.1" 200 13354
+INFO 2023-09-24 17:33:14,846 basehttp 2748 16040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:33:19,867 basehttp 2748 16040 "GET /admin/hw_app/product/ HTTP/1.1" 200 13132
+INFO 2023-09-24 17:33:20,603 basehttp 2748 16040 "GET /admin/hw_app/product/ HTTP/1.1" 200 13132
+INFO 2023-09-24 17:33:20,630 basehttp 2748 16040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:33:21,630 basehttp 2748 16040 "GET /admin/hw_app/product/ HTTP/1.1" 200 13132
+INFO 2023-09-24 17:33:21,657 basehttp 2748 16040 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:33:44,451 autoreload 2748 3236 D:\обучение\Django\seminar_1\my_project\hw_app\models.py changed, reloading.
+INFO 2023-09-24 17:33:44,915 autoreload 13328 6112 Watching for file changes with StatReloader
+ERROR 2023-09-24 17:33:45,620 log 13328 17900 Internal Server Error: /admin/hw_app/product/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: hw_app_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: hw_app_product.image
+ERROR 2023-09-24 17:33:45,626 basehttp 13328 17900 "GET /admin/hw_app/product/ HTTP/1.1" 500 165618
+WARNING 2023-09-24 17:33:48,195 log 13328 17900 Not Found: /admin/hw_app/category/2/change/
+WARNING 2023-09-24 17:33:48,195 basehttp 13328 17900 "GET /admin/hw_app/category/2/change/ HTTP/1.1" 404 4882
+INFO 2023-09-24 17:43:32,484 autoreload 26220 19360 Watching for file changes with StatReloader
+INFO 2023-09-24 17:43:37,654 basehttp 26220 24204 "GET /admin/hw_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-24 17:43:37,678 basehttp 26220 24204 "GET /admin/login/?next=/admin/hw_app/product/ HTTP/1.1" 200 4297
+INFO 2023-09-24 17:43:46,748 basehttp 26220 24204 "POST /admin/login/?next=/admin/hw_app/product/ HTTP/1.1" 200 4564
+INFO 2023-09-24 17:44:24,423 autoreload 23968 13256 Watching for file changes with StatReloader
+INFO 2023-09-24 17:44:33,130 basehttp 23968 26188 "POST /admin/login/?next=/admin/hw_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-24 17:44:33,185 basehttp 23968 26188 "GET /admin/hw_app/product/ HTTP/1.1" 200 21940
+INFO 2023-09-24 17:44:33,214 basehttp 23968 26188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:44:35,442 basehttp 23968 26188 "GET /admin/hw_app/product/3/change/ HTTP/1.1" 200 13330
+INFO 2023-09-24 17:44:35,476 basehttp 23968 26188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:44:39,798 basehttp 23968 26188 "GET /admin/hw_app/order/ HTTP/1.1" 200 39468
+INFO 2023-09-24 17:44:39,827 basehttp 23968 26188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:44:45,760 basehttp 23968 26188 "GET /admin/hw_app/order/30/change/ HTTP/1.1" 200 17606
+INFO 2023-09-24 17:44:45,789 basehttp 23968 26188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:45:03,797 basehttp 23968 26188 "GET /admin/hw_app/product/ HTTP/1.1" 200 21940
+INFO 2023-09-24 17:45:03,824 basehttp 23968 26188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 17:45:32,755 basehttp 23968 26188 "GET /hw/upload/ HTTP/1.1" 200 656
+INFO 2023-09-24 17:45:47,132 basehttp 23968 26188 "GET /hw/products/ HTTP/1.1" 200 18059
+ERROR 2023-09-24 17:45:53,553 log 23968 26188 Internal Server Error: /hw/change_product/1/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 68, in change_product
+    form = forms.ProductForm(initial={'name': product.name, 'description': product.description, 'category': product.category,
+                                                                                                            ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'category'
+ERROR 2023-09-24 17:45:53,555 basehttp 23968 26188 "GET /hw/change_product/1/? HTTP/1.1" 500 71277
+ERROR 2023-09-24 17:46:00,357 log 23968 26188 Internal Server Error: /hw/change_product/27/
+Traceback (most recent call last):
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\обучение\Django\seminar_1\my_project\hw_app\views.py", line 68, in change_product
+    form = forms.ProductForm(initial={'name': product.name, 'description': product.description, 'category': product.category,
+                                                                                                            ^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'category'
+ERROR 2023-09-24 17:46:00,358 basehttp 23968 26188 "GET /hw/change_product/27/? HTTP/1.1" 500 71288
+INFO 2023-09-24 17:46:43,397 autoreload 23968 13256 D:\обучение\Django\seminar_1\my_project\hw_app\views.py changed, reloading.
+INFO 2023-09-24 17:46:43,810 autoreload 19616 14508 Watching for file changes with StatReloader
+INFO 2023-09-24 17:46:44,788 basehttp 19616 11064 "GET /hw/change_product/27/? HTTP/1.1" 200 1545
+INFO 2023-09-24 17:47:14,799 basehttp 19616 11064 "GET /hw/change_product/2/ HTTP/1.1" 200 1546

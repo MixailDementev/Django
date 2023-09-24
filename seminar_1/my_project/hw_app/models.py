@@ -11,19 +11,24 @@ class Client(models.Model):
     date_registration = models.DateField()
 
     def __str__(self):
-        return f'Client_name: {self.name}, phone: {self.phone}, email: {self.email}, address: {self.address}, date_registration: {self.date_registration}'
+        return f'Client_name: {self.name}, phone: {self.phone}, email: {self.email}'
+
 
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
-    price = models.DecimalField(max_digits=8, decimal_places=2)
-    quantity = models.IntegerField(default=0)
-    date_add = models.DateField()
+    price = models.DecimalField(default=999999.99, max_digits=8, decimal_places=2)
+    quantity = models.PositiveIntegerField(default=1)
+    date_add = models.DateTimeField(auto_now_add=True)
+    rating = models.DecimalField(default=5.0, max_digits=3, decimal_places=2)
+    image = models.ImageField(null=True)
 
 
     def __str__(self):
-        return f'Product_name: {self.name}, description: {self.description}, price: {self.price}, quantity: {self.quantity}, date_add: {self.date_add}'
+        return f'Product_name: {self.name}, price: {self.price}, quantity: {self.quantity}'
+
+
 
 class Order(models.Model):
     customer = models.ForeignKey(Client, on_delete=models.CASCADE)
@@ -31,7 +36,13 @@ class Order(models.Model):
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
     date_ordered = models.DateTimeField(auto_now_add=True)
 
+
+
     def __str__(self):
         return f'Customer: {self.customer}, products: {self.products}, total_price: {self.total_price}, date_ordered: {self.date_ordered}'
+
+
+
+
 
 

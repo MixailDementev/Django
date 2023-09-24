@@ -4,6 +4,7 @@ import logging
 
 
 logger = logging.getLogger(__name__)
+
 def head_tails(request):
     result = 'HEADS' if randint(0, 1) else 'TAILS'
     logger.info(result)

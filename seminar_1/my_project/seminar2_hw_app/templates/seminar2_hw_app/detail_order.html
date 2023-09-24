@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% for order in orders %}
+    <p>Order ID: {{ order.id }}</p>
+    <p>Client: {{ order.client }}</p>
+    <p>Product: {{ order.product }}</p>
+    <p>Price: {{ order.total_price }}</p>
+    <p>Date: {{ order.date_ordered }}</p>
+{% endfor %}
